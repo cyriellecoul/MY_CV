@@ -6,12 +6,12 @@
  */
 const TECH_REGISTRY = {
   // ===== Frontend Frameworks =====
-  'React': { color: '#61DAFB' },
-  'Angular': { color: '#DD0031' },
+  'React': { color: '#4FC08D' },
+  'AngularJS': { color: '#DD0031' },
   'Vue': { color: '#4FC08D' },
   'Vue.js': { color: '#4FC08D' },
   'Svelte': { color: '#FF3E00' },
-  'Next.js': { color: '#000000' },
+  'Next.js': { color: '#3366CC' },
   'Nuxt': { color: '#00DC82' },
   'Nuxt.js': { color: '#00DC82' },
   'Astro': { color: '#FF5D01' },
@@ -29,7 +29,7 @@ const TECH_REGISTRY = {
   'TypeScript': { color: '#3178C6' },
   'JavaScript': { color: '#F7DF1E' },
   'Python': { color: '#3776AB' },
-  'Java': { color: '#007396' },
+  'Java': { color: '#E34F26' },
   'Go': { color: '#00ADD8' },
   'Golang': { color: '#00ADD8' },
   'Rust': { color: '#DEA584' },
@@ -41,8 +41,8 @@ const TECH_REGISTRY = {
   'Swift': { color: '#F05138' },
   'Kotlin': { color: '#7F52FF' },
   'Dart': { color: '#0175C2' },
-  'Elixir': { color: '#4B275F' },
-  'Scala': { color: '#DC322F' },
+  'Objective-C': { color: '#61DAFB' },
+  'Android Studio': { color: '#FF00C8' },
   'Haskell': { color: '#5D4F85' },
   'Lua': { color: '#2C2D72' },
   'R': { color: '#276DC3' },
@@ -73,16 +73,16 @@ const TECH_REGISTRY = {
   'Bun': { color: '#FBF0DF' },
 
   // ===== Mobile =====
-  'React Native': { color: '#61DAFB' },
+  'React Native': { color: '#4FC08D' },
   'Flutter': { color: '#02569B' },
   'Ionic': { color: '#3880FF' },
   'SwiftUI': { color: '#F05138' },
-  'Expo': { color: '#000020' },
+  'Xcode': { color: '#DC382D' },
 
   // ===== Databases =====
   'PostgreSQL': { color: '#4169E1' },
   'MongoDB': { color: '#47A248' },
-  'MySQL': { color: '#4479A1' },
+  'MySQL': { color: '#61DAFB' },
   'Redis': { color: '#DC382D' },
   'SQLite': { color: '#003B57' },
   'Elasticsearch': { color: '#005571' },
@@ -111,7 +111,7 @@ const TECH_REGISTRY = {
   'Netlify': { color: '#00C7B7' },
   'Cloudflare': { color: '#F38020' },
   'Heroku': { color: '#430098' },
-  'DigitalOcean': { color: '#0080FF' },
+  'Ngrok': { color: '#0080FF' },
   'Nginx': { color: '#009639' },
   'Linux': { color: '#FCC624' },
 
@@ -120,8 +120,8 @@ const TECH_REGISTRY = {
   'Tailwind': { color: '#06B6D4' },
   'SASS': { color: '#CC6699' },
   'SCSS': { color: '#CC6699' },
-  'CSS': { color: '#1572B6' },
-  'HTML': { color: '#E34F26' },
+  'CSS': { color: '#06B6D4' },
+  'HTML': { color: '#61DAFB' },
   'Styled Components': { color: '#DB7093' },
   'Material UI': { color: '#007FFF' },
   'MUI': { color: '#007FFF' },
@@ -133,13 +133,13 @@ const TECH_REGISTRY = {
   'Framer Motion': { color: '#0055FF' },
 
   // ===== Tools & Others =====
-  'Git': { color: '#F05032' },
-  'GitHub': { color: '#181717' },
+  'Git': { color: '#A6FF00' },
+  'GitHub': { color: '#3178C6' },
   'GitLab': { color: '#FC6D26' },
   'GraphQL': { color: '#E10098' },
-  'REST': { color: '#009688' },
+  'REST APIs': { color: '#FFCA28' },
   'Prisma': { color: '#2D3748' },
-  'tRPC': { color: '#2596BE' },
+  'SourceTree': { color: '#F7DF1E' },
   'Vite': { color: '#646CFF' },
   'Webpack': { color: '#8DD6F9' },
   'Rollup': { color: '#EC4A3F' },
@@ -148,14 +148,15 @@ const TECH_REGISTRY = {
   'Storybook': { color: '#FF4785' },
   'Figma': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
+  'Atlassian': { color: '#DC322F' },
 
   // ===== Testing =====
   'Jest': { color: '#C21325' },
   'Vitest': { color: '#6E9F18' },
-  'Cypress': { color: '#69D3A7' },
-  'Playwright': { color: '#2EAD33' },
+  'Jira': { color: '#69D3A7' },
+  'Confluence': { color: '#2596BE' },
   'Testing Library': { color: '#E33332' },
-  'Mocha': { color: '#8D6748' },
+  'Bitbucket': { color: '#2EAD33' },
   'Selenium': { color: '#43B02A' },
 
   // ===== AI & Data =====
@@ -164,7 +165,7 @@ const TECH_REGISTRY = {
   'OpenAI': { color: '#412991' },
   'LangChain': { color: '#1C3C3C' },
   'Pandas': { color: '#150458' },
-  'NumPy': { color: '#013243' },
+  'Postman': { color: '#DC322F' },
 
   // ===== CMS & Others =====
   'WordPress': { color: '#21759B' },
@@ -183,6 +184,19 @@ const TECH_REGISTRY = {
   'JSP': { color: '#007396' },
   'JSF': { color: '#007396' },
   'jQuery': { color: '#0769AD' },
+
+  // ===== Soft Skills =====
+  'Travail d\'équipe': { color: '#FF6A00' },
+  'Communication': { color: '#A6FF00' },
+  'Suivi de projets': { color: '#00E676' },
+  'Autonomie': { color: '#00D4FF' },
+  'Service à la clientèle': { color: '#0066FF' },
+  'Rigueur': { color: '#7B00FF' },
+  'Résolution de problèmes': { color: '#0769AD' },
+  'Gestion du temps': { color: '#DC322F' },
+  'Ponctualité': { color: '#FF1493' },
+  'Prise d\'initiative': { color: '#FF0033' },
+
 } as const satisfies Record<string, { color: string }>
 
 export type TechName = keyof typeof TECH_REGISTRY

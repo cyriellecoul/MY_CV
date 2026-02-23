@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from '@/lib/i18n'
 import { resumeConfig } from '@/data/resume-config'
 import { ExperienceItem } from './ExperienceItem'
-import { ProjectItem } from './ProjectItem'        
+import { ProjectItem } from './ProjectItem'
 import { EducationItem } from './EducationItem'
 
 export function MainContent() {
@@ -58,24 +58,43 @@ export function MainContent() {
               details={
                 exp.details
                   ? {
-                      context: resolve(exp.details.context),
-                      tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
-                      features: exp.details.features ? resolveArray(exp.details.features) : undefined,
-                      training: exp.details.training ? resolveArray(exp.details.training) : undefined,
-                      env: resolve(exp.details.env),
-                    }
+                    context: resolve(exp.details.context),
+                    tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
+                    features: exp.details.features ? resolveArray(exp.details.features) : undefined,
+                    training: exp.details.training ? resolveArray(exp.details.training) : undefined,
+                    env: resolve(exp.details.env),
+                  }
                   : undefined
               }
               subItem={
                 exp.subItem
                   ? {
-                      title: resolve(exp.subItem.title),
-                      description: resolve(exp.subItem.description),
-                    }
+                    title: resolve(exp.subItem.title),
+                    description: resolve(exp.subItem.description),
+                  }
                   : undefined
               }
               labels={experienceLabels}
               isHighlighted={exp.isHighlighted}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Education */}
+      <div className="mt-8">
+        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
+          {resolve(labels.sections.education)}
+        </h2>
+        <div className="space-y-4">
+          {education.map((edu, i) => (
+            <EducationItem
+              key={`${resolve(edu.school)}-${resolve(edu.degree)}-${edu.period ?? i}`}
+              school={resolve(edu.school)}
+              degree={resolve(edu.degree)}
+              city={edu.city ? resolve(edu.city) : undefined}
+              period={edu.period}
+              logo={edu.logo}
             />
           ))}
         </div>
@@ -102,25 +121,6 @@ export function MainContent() {
           </div>
         </div>
       )}
-
-      {/* Education */}
-      <div className="mt-8">
-        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
-          {resolve(labels.sections.education)}
-        </h2>
-        <div className="space-y-4">
-          {education.map((edu, i) => (
-            <EducationItem
-              key={`${resolve(edu.school)}-${resolve(edu.degree)}-${edu.period ?? i}`}
-              school={resolve(edu.school)}
-              degree={resolve(edu.degree)}
-              city={edu.city ? resolve(edu.city) : undefined}
-              period={edu.period}
-              logo={edu.logo}
-            />
-          ))}
-        </div>
-      </div>
     </div>
   )
 }

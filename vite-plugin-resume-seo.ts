@@ -221,8 +221,8 @@ function buildNoscriptHtml(
     for (const edu of education) {
       lines.push(`${indent}    <div style="margin-bottom: 0.75rem;">`)
       lines.push(`${indent}      <p style="margin: 0; font-weight: 600;">${escapeHtml(resolve(edu.degree))}</p>`)
-      if (edu.specialty) {
-        lines.push(`${indent}      <p style="margin: 0; color: #555;">${escapeHtml(resolve(edu.specialty))}</p>`)
+      if (edu.city) {
+        lines.push(`${indent}      <p style="margin: 0; color: #555;">${escapeHtml(resolve(edu.city))}</p>`)
       }
       const eduMeta = [resolve(edu.school)]
       if (edu.period) eduMeta.push(edu.period)

@@ -6,7 +6,7 @@ interface SkillCategoryProps {
 export function SkillCategory({ title, children }: SkillCategoryProps) {
   return (
     <div>
-      <p className="text-xs font-medium text-resume-text mb-1.5">{title}</p>
+      <p className="text-sm font-medium text-resume-text mb-4">{title}</p>
       {children}
     </div>
   )

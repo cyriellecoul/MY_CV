@@ -88,8 +88,8 @@ export function Sidebar() {
       />
 
       {/* Contact */}
-      <SidebarSection title={resolve(labels.sections.contact)}>
-        <div className="space-y-3">
+      <SidebarSection title={resolve(labels.sections.contact)} className='mt-10'>
+        <div className="space-y-4 mt-6">
           {contact.map((item) => (
             <ContactItem key={`${item.type}-${item.label}`} type={item.type} label={item.label} href={item.href} />
           ))}
@@ -97,8 +97,8 @@ export function Sidebar() {
       </SidebarSection>
 
       {/* Skills */}
-      <SidebarSection title={resolve(labels.sections.skills)}>
-        <div className="space-y-4">
+      <SidebarSection title={resolve(labels.sections.skills)} className='mt-10'>
+        <div className="space-y-5">
           {skills.map((category, i) => (
             <SkillCategory key={`${resolve(category.title)}-${i}`} title={resolve(category.title)}>
               {category.type === 'badges' && (
@@ -110,25 +110,38 @@ export function Sidebar() {
                 </div>
               )}
               {category.type === 'text' && (
-                <p className="text-xs text-resume-text-secondary">
+                <p className="text-lg text-resume-text-secondary">
                   {category.items
                     .map((item) => (typeof item.name === 'string' ? item.name : resolve(item.name)))
                     .join(', ')}
                 </p>
               )}
               {category.type === 'languages' && (
-                <div className="flex items-center gap-3 text-sm flex-wrap">
+                <div className="flex flex-wrap gap-3">
                   {category.items.map((item, j) => {
-                    const name = typeof item.name === 'string' ? item.name : resolve(item.name)
+                    const name =
+                      typeof item.name === 'string' ? item.name : resolve(item.name)
+
+                    const level = item.level ? resolve(item.level) : null
+
                     return (
-                      <span key={`${name}-${j}`} className="flex items-center gap-1">
-                        <span className="text-resume-text-secondary">
-                          {name} {item.level ? resolve(item.level) : ''}
-                          {item.details && (
-                            <span className="text-xs opacity-70 ml-1">{item.details}</span>
-                          )}
+                      <div
+                        key={`${name}-${j}`}
+                        className="flex items-center gap-3 px-4 py-2 rounded-xl 
+                     bg-resume-card border border-resume-border 
+                     shadow-sm hover:shadow-md transition"
+                      >
+                        <span className="font-medium text-resume-text-secondary">
+                          {name}
                         </span>
-                      </span>
+                        {level && (
+                          <span className="text-sm px-2 py-1 rounded-full 
+                             bg-resume-accent/10 
+                             text-resume-accent font-medium">
+                            {level}
+                          </span>
+                        )}
+                      </div>
                     )
                   })}
                 </div>
@@ -140,7 +153,7 @@ export function Sidebar() {
 
       {/* Hobbies */}
       {hobbies && hobbies.length > 0 && labels.sections.hobbies && (
-        <SidebarSection title={resolve(labels.sections.hobbies)}>
+        <SidebarSection title={resolve(labels.sections.hobbies)} className='mt-10'>
           <div className="grid grid-cols-2 gap-3">
             {hobbies.map((hobby, i) => (
               <div key={`${resolve(hobby.title)}-${i}`}>

@@ -64,18 +64,32 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'Frontend', fr: 'Frontend' },
+      title: { en: 'Front-End', fr: 'Front-End' },
       type: 'badges',
-      items: [{ name: 'Angular' },
-      { name: 'React' },
-      { name: 'JavaScript' },
-      { name: 'TypeScript' },
-      { name: 'Tailwind CSS' },
-      { name: 'Next.js' },
+      items: [
+        { name: 'AngularJS' },
+        { name: 'React' },
+        { name: 'JavaScript' },
+        { name: 'TypeScript' },
+        { name: 'HTML' },
+        { name: 'CSS' },
+        { name: 'Tailwind CSS' },
+        { name: 'Next.js' },
       ],
     },
     {
-      title: { en: 'Backend', fr: 'Backend' },
+      title: { en: 'Mobile', fr: 'Mobile' },
+      type: 'badges',
+      items: [
+        { name: 'Java' },
+        { name: 'Objective-C' },
+        { name: 'React Native' },
+        { name: 'Android Studio' },
+        { name: 'Xcode' },
+      ],
+    },
+    {
+      title: { en: 'Back-End', fr: 'Back-End' },
       type: 'badges',
       items: [
         { name: 'Node.js' },
@@ -89,7 +103,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'MongoDB' },
-        { name: 'mySQL' },
+        { name: 'MySQL' },
 
       ],
     },
@@ -97,8 +111,11 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'DevOps', fr: 'DevOps' },
       type: 'badges',
       items: [
-        { name: 'Git - GitHub' },
-        { name: 'Atlassian (Bitbucket, Jira, Confluence)' },
+        { name: 'Git' },
+        { name: 'GitHub' },
+        { name: 'Bitbucket' }, 
+        { name: 'Confluence' }, 
+        { name: 'Jira' },
         { name: 'SourceTree' },
         { name: 'Docker' },
         { name: 'Figma' },
@@ -130,7 +147,7 @@ export const resumeConfig: ResumeConfig = {
       details: {
         context: {
           en: 'Team of 8 developers within a 50-person product company. Agile/Scrum methodology with 2-week sprints, CI/CD pipeline with GitHub Actions, code reviews on every PR.',
-          fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines à 1 mois, pipeline CI/CD avec GitHub Actions et Sentry, code review sur chaque PR suivi de QA.',
+          fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines à 1 mois, pipeline CI/CD avec GitHub Actions et Sentry, Code Review sur chaque PR suivi de QA.',
         },
         tasks: {
           en: [
@@ -189,7 +206,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Developed responsive web applications for various clients. Specialized in React and Angular projects.',
         fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
       },
-      techs: ['Travail d\'équipe', 'Communication', 'Suivi de projets', 'Automomie', 'Service à la clientèle', 'Rigueur', 'Résolution de problèmes',],
+      techs: ['Travail d\'équipe', 'Communication', 'Suivi de projets', 'Autonomie', 'Service à la clientèle', 'Rigueur', 'Résolution de problèmes',],
       details: {
         context: {
           en: 'Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.',
@@ -316,7 +333,6 @@ export const resumeConfig: ResumeConfig = {
     {
       school: { en: 'Saint Gabriel Campus', fr: 'Campus Saint Gabriel' },
       degree: { en: 'BTS - International Trade', fr: 'BTS - Commerce International' },
-
       city: { en: 'St. Laurent, FR', fr: 'St. Laurent, FR' },
       period: '2007 - 2010',
     },
@@ -350,19 +366,14 @@ export const resumeConfig: ResumeConfig = {
   // Auto-detected: just drop your PDF files in public/cv/fr/ and public/cv/en/
   // The download button will appear automatically — no config needed!
   // Uncomment below only if you need to override the auto-detection:
-  // pdf: {
-  //   label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-  //   path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
-  // },
+  pdf: {
+    label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
+    path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
+  },
 
   // ===== THEME =====
   theme: {
-    preset: 'grass', // 'minimal' | 'warm' | 'ocean' | 'forest' | 'slate' | 'lilac'
-    // You can override individual colors:
-    // colors: {
-    //   primary: '#8B5A2B',
-    //   primaryLight: '#D4A574',
-    // },
+    preset: 'grass',
   },
 
   // ===== UI LABELS =====
