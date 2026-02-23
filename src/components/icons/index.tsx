@@ -109,8 +109,22 @@ export function CheckIcon(props: IconProps) {
 
 export function ExternalLinkIcon(props: IconProps) {
   return (
-    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" {...props}>
+    <svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" stroke="currentColor" {...props}>
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
     </svg>
+  )
+}
+
+// --- Google Play Icon ---
+export function GooglePlayIcon(props: IconProps) {
+  return (
+    <svg width="24px" height="24px" viewBox="0 -0.5 408 467.80000000000007" xmlns="http://www.w3.org/2000/svg"><linearGradient id="a" gradientUnits="userSpaceOnUse" x2="261.746" y1="112.094" y2="112.094"><stop offset="0" stop-color="#63be6b" /><stop offset=".506" stop-color="#5bbc6a" /><stop offset="1" stop-color="#4ab96a" /></linearGradient><linearGradient id="b" gradientUnits="userSpaceOnUse" x1=".152" x2="179.896" y1="223.393" y2="223.393"><stop offset="0" stop-color="#3ec6f2" /><stop offset="1" stop-color="#45afe3" /></linearGradient><linearGradient id="c" gradientUnits="userSpaceOnUse" x1="179.896" x2="407.976" y1="229.464" y2="229.464"><stop offset="0" stop-color="#faa51a" /><stop offset=".387" stop-color="#fab716" /><stop offset=".741" stop-color="#fac412" /><stop offset="1" stop-color="#fac80f" /></linearGradient><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="1.744" x2="272.296" y1="345.521" y2="345.521"><stop offset="0" stop-color="#ec3b50" /><stop offset="1" stop-color="#e7515b" /></linearGradient><path d="M261.7 142.3L15 1.3C11.9-.5 8-.4 5 1.4c-3.1 1.8-5 5-5 8.6 0 0 .1 13 .2 34.4l179.7 179.7z" fill="url(#a)" /><path d="M.2 44.4C.5 121.6 1.4 309 1.8 402.3L180 224.1z" fill="url(#b)" /><path d="M402.9 223l-141.2-80.7-81.9 81.8 92.4 92.4L403 240.3c3.1-1.8 5-5.1 5-8.6 0-3.6-2-6.9-5.1-8.7z" fill="url(#c)" /><path d="M1.7 402.3c.2 33.3.3 54.6.3 54.6 0 3.6 1.9 6.9 5 8.6 3.1 1.8 6.9 1.8 10 0l255.3-148.9-92.4-92.4z" fill="url(#d)" /></svg>
+  )
+}
+
+// --- Apple Store Icon ---
+export function AppleStoreIcon(props: IconProps) {
+  return (
+    <svg fill="#000000" width="24px" height="24px" viewBox="-52.01 0 560.035 560.035" xmlns="http://www.w3.org/2000/svg"><path d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655" /></svg>
   )
 }

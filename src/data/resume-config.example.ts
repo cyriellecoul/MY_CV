@@ -181,71 +181,62 @@ export const resumeConfig: ResumeConfig = {
     },
     {
       id: 'company-b',
-      company: { en: 'WebAgency', fr: 'WebAgency' },
-      role: { en: 'Frontend Developer', fr: 'Développeuse Frontend' },
+      company: { en: 'Communauto', fr: 'Communauto' },
+      role: { en: 'Frontend Developer', fr: 'Agente de route' },
       type: { en: 'Montréal', fr: 'Montréal' },
-      period: { en: '2019 - 2022', fr: '2019 - 2022' },
+      period: { en: '02/2018 - 09/2019', fr: '02/2018 - 09/2019' },
       description: {
         en: 'Developed responsive web applications for various clients. Specialized in React and Angular projects.',
-        fr: 'Développement d\'applications web responsives pour divers clients. Spécialisée en projets React et Angular.',
+        fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
       },
-      techs: ['React', 'Angular', 'TypeScript', 'SCSS'],
+      techs: ['Travail d\'équipe', 'Communication', 'Suivi de projets', 'Automomie', 'Service à la clientèle', 'Rigueur', 'Résolution de problèmes',],
       details: {
         context: {
           en: 'Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.',
-          fr: 'Agence digitale avec 20+ clients dans différents secteurs (retail, finance, santé). Équipe de 12 développeurs, travaillant sur 3-4 projets simultanément.',
+          fr: 'Leader de l’autopartage au Canada avec plus de 4500 véhicules en libre-service dans 6 villes.',
         },
         tasks: {
           en: [
             'Built 15+ client-facing web applications from scratch',
             'Created and maintained a shared design system used across all agency projects',
             'Implemented complex form workflows with multi-step validation',
-            'Optimized web performance achieving 90+ scores on Core Web Vitals',
-            'Integrated third-party APIs (payment, CRM, analytics)',
-            'Set up Storybook documentation for reusable components',
-            'Collaborated closely with UX designers to translate Figma mockups into pixel-perfect UIs',
+            'Implemented complex form workflows with multi-step validation', 'Implemented complex form workflows with multi-step validation',
           ],
           fr: [
-            'Développement de 15+ applications web clients from scratch',
-            'Création et maintenance d\'un design system partagé utilisé sur tous les projets de l\'agence',
-            'Implémentation de workflows de formulaires complexes avec validation multi-étapes',
-            'Optimisation des performances web avec scores 90+ sur les Core Web Vitals',
-            'Intégration d\'APIs tierces (paiement, CRM, analytics)',
-            'Mise en place de la documentation Storybook pour les composants réutilisables',
-            'Collaboration étroite avec les designers UX pour traduire les maquettes Figma en interfaces pixel-perfect',
+            'Établir un suivi quotidien et centralisé des actions avec l\'équipe logistique via l\'application interne.',
+            'Inspections des véhicules (intérieur et extérieur) pour assurer un bon fonctionnement.',
+            'Assurer une régularité de travail et une qualité de service optimal.',
+            'Identifier des solutions pour améliorer la performance de l’équipe.',
+            'Assurer une communication régulière avec l\'équipe pour assurer un bon suivi de la flotte automobile.',
           ],
         },
         training: {
           en: [
-            'Angular Advanced workshop (2 days)',
-            'Accessibility (WCAG 2.1) certification',
           ],
           fr: [
-            'Workshop Angular Avancé (2 jours)',
-            'Certification Accessibilité (WCAG 2.1)',
           ],
         },
         env: {
-          en: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-          fr: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
+          en: '',
+          fr: '',
         },
       },
     },
     {
-      id: 'internship',
-      company: { en: 'StartupXYZ', fr: 'StartupXYZ' },
-      role: { en: 'Fullstack Developer Intern', fr: 'Stagiaire Développeuse Fullstack' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: '2018 - 2019', fr: '2018 - 2019' },
+      id: 'company-c',
+      company: { en: 'Familiprix - L.Dufour et S. Lamoureux', fr: 'Familiprix - L.Dufour et S. Lamoureux' },
+      role: { en: 'Delivery and Pharmacy Technician', fr: 'Livreuse et technicienne en pharmacie' },
+      type: { en: 'Montréal', fr: 'Montréal' },
+      period: { en: '06/2015 - 01/2018', fr: '06/2015 - 01/2018' },
       description: {
         en: 'Contributed to the development of an e-commerce platform. Gained experience in fullstack development.',
-        fr: 'Contribution au développement d\'une plateforme e-commerce. Acquisition d\'expérience en développement fullstack.',
+        fr: 'Effectuer les livraisons de médicaments et autres produits et assurer un service à la clientèle de qualité lors des interactions avec les clients.',
       },
-      techs: ['React', 'Node.js', 'MongoDB', 'Machine Learning'],
+      techs: ['Service à la clientèle', 'Prise d\'initiative', 'Autonomie', 'Ponctualité', 'Gestion du temps', 'Travail d\'équipe', 'Communication'],
       details: {
         context: {
           en: 'Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.',
-          fr: 'Startup en phase de démarrage (seed round), petite équipe de 5 développeurs construisant une plateforme e-commerce from scratch. Environnement rapide avec des releases hebdomadaires.',
+          fr: 'Pharmacie de proximité à taille humaine.',
         },
         tasks: {
           en: [
@@ -254,28 +245,23 @@ export const resumeConfig: ResumeConfig = {
             'Integrated Stripe payment gateway with 3D Secure support',
             'Implemented user authentication with JWT and OAuth (Google, Facebook)',
             'Created an admin dashboard for order management and analytics',
-            'Wrote API documentation with Swagger/OpenAPI',
           ],
           fr: [
-            'Développement du catalogue produits avec filtrage avancé et recherche',
-            'Création du panier d\'achat avec vérification de stock en temps réel',
-            'Intégration de la passerelle de paiement Stripe avec support 3D Secure',
-            'Implémentation de l\'authentification utilisateur avec JWT et OAuth (Google, Facebook)',
-            'Création d\'un tableau de bord admin pour la gestion des commandes et les analytics',
-            'Rédaction de la documentation API avec Swagger/OpenAPI',
+            'Préparer les sacs de livraison et s\'assurer de leur exactitude en vérifiant posant des questions.',
+            'Optimiser les itinéraires en fonction des urgences.',
+            'Établir une relation de proximité avec les clients afin de maintenir un service de qualité.',
+            'Assurer une communication régulière avec l\'équipe pour le bon déroulement des opérations.',
           ],
         },
-        features: {
+        training: {
           en: [
-            'AWS Solutions Architect certification',
           ],
           fr: [
-            'AWS Solutions Architect certification',
           ],
         },
         env: {
-          en: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
-          fr: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
+          en: '',
+          fr: '',
         },
       },
     },
@@ -285,39 +271,54 @@ export const resumeConfig: ResumeConfig = {
   projects: [
     {
       id: 'project-a',
-      title: { en: 'WeatherApp', fr: 'WeatherApp' },
+      title: { en: 'mTransport - Driver Application', fr: 'mTransport - Application Conducteur' },
       description: {
-        en: 'A real-time weather dashboard built with React and OpenWeather API.',
-        fr: 'Un tableau de bord météo en temps réel construit avec React et l\'API OpenWeather.',
+        en: 'This application, developed natively is a valuable tool for school bus drivers to determine the correct route, locate scheduled stops along a route, and check the presence of students (expected, absent, or already on board).',
+        fr: 'Application développée en natif constitue une aide précieuse pour les conducteur·rice·s de véhicules scolaire afin de déterminer la direction à prendre, localiser les arrêts prévus sur un trajet et connaître la présence des élèves (attendus, absents ou déjà à bord), ect.',
       },
-      techs: ['React', 'TypeScript'],
-      url: 'https://weather-app.example.com',
-      github: 'https://github.com/janedoe/weather-app',
+      techs: ['Java', 'Android Studio', 'Objective-C', 'Xcode', 'Node.js', 'REST APIs'],
+      url: 'https://www.mtransport.ca/',
+      googlePlay: 'https://play.google.com/store/apps/details?id=ca.mphase.mtransport_driver&pcampaignid=web_share&pli=1',
+      appleStore: 'https://apps.apple.com/ca/app/mtransport-driver/id1273216576',
     },
     {
       id: 'project-b',
-      title: { en: 'TaskManager', fr: 'TaskManager' },
+      title: { en: 'mTransport - Parent Application', fr: 'mTransport - Application Parent' },
       description: {
-        en: 'A Kanban-style task management tool with drag-and-drop.',
-        fr: 'Un outil de gestion de tâches style Kanban avec glisser-déposer.',
+        en: 'Initially developed natively and then recently using React Native, this application allows parents to track their children\'s journeys, receive real-time notifications, and access information on routes and schedules.',
+        fr: 'Développée à la base en native puis récemment en React Native, cette application permet aux parents de suivre les trajets de leurs enfants, de recevoir des notifications en temps réel et d\'accéder à des informations sur les itinéraires et les horaires.',
       },
-      techs: ['React', 'Node.js', 'PostgreSQL'],
-      github: 'https://github.com/janedoe/task-manager',
+      techs: ['React Native', 'Java', 'Android Studio', 'Objective-C', 'Xcode', 'Node.js', 'REST APIs'],
+      url: 'https://www.mtransport.ca/fr/avantages',
+      googlePlay: 'https://play.google.com/store/apps/details?id=ca.mphase.mtransport&pcampaignid=web_share',
+      appleStore: 'https://apps.apple.com/ca/app/mtransport-parent/id1152483902',
+    },
+    {
+      id: 'project-c',
+      title: { en: 'mTransport - Portal Web', fr: 'mTransport - Portail Web' },
+      description: {
+        en: 'Transport - Web Portal is a complete platform that includes many tools that allow dispatchers to track the vehicle fleet in real time on a map',
+        fr: 'Transport - Portail Web est une plateforme complète qui comprend beaucoup d’outils permettant aux répartiteur·rice·s de pouvoir suivre en temps réel la flotte automobile sur une carte. Elle facilite, entre autres, la planification des trajets et l’affectation des conducteur·rice·s.',
+      },
+      techs: ['AngularJs', 'JavaScript', 'Node.js', 'REST APIs', 'HTML', 'CSS'],
+      url: 'https://portail.mtransport.ca/#!/',
     },
   ],
 
   // ===== EDUCATION =====
   education: [
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Master in Computer Science', fr: 'Master Informatique' },
-      specialty: { en: 'Web & Mobile Development', fr: 'Développement Web & Mobile' },
-      period: '2017 - 2019',
+      school: { en: 'Collège Ahuntsic', fr: 'Collège Ahuntsic' },
+      degree: { en: 'AEC in Mobile Application Development', fr: 'AEC - Développement d\'applications mobiles' },
+      city: { en: 'Montreal, CA', fr: 'Montréal, CA' },
+      period: '2020 - 2021',
     },
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Bachelor in Computer Science', fr: 'Licence Informatique' },
-      period: '2014 - 2017',
+      school: { en: 'Saint Gabriel Campus', fr: 'Campus Saint Gabriel' },
+      degree: { en: 'BTS - International Trade', fr: 'BTS - Commerce International' },
+
+      city: { en: 'St. Laurent, FR', fr: 'St. Laurent, FR' },
+      period: '2007 - 2010',
     },
   ],
 

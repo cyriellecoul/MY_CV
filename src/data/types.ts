@@ -64,7 +64,8 @@ export interface Project {
   description: LocalizedString
   techs: (TechName | (string & {}))[]
   url?: string
-  github?: string
+  googlePlay?: string
+  appleStore?: string
 }
 
 // ===== EDUCATION =====
@@ -72,7 +73,7 @@ export interface Project {
 export interface Education {
   school: LocalizedString
   degree: LocalizedString
-  specialty?: LocalizedString
+  city?: LocalizedString
   period?: string
   logo?: string
 }

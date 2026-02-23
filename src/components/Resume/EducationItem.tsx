@@ -3,12 +3,12 @@ import { assetUrl } from '@/lib/utils'
 interface EducationItemProps {
   school: string
   degree: string
-  specialty?: string
+  city?: string
   period?: string
   logo?: string
 }
 
-export function EducationItem({ school, degree, specialty, period, logo }: EducationItemProps) {
+export function EducationItem({ school, degree, city, period, logo }: EducationItemProps) {
   return (
     <div className="flex items-start gap-4">
       {logo && (
@@ -18,12 +18,9 @@ export function EducationItem({ school, degree, specialty, period, logo }: Educa
       )}
       <div>
         <p className="text-base font-semibold text-resume-text">{school}</p>
-        <p className="text-sm text-resume-text-secondary">{degree}</p>
-        {specialty && (
-          <p className="text-sm text-resume-primary">{specialty}</p>
-        )}
-        {period && (
-          <p className="text-xs text-resume-text-secondary mt-0.5">{period}</p>
+        <p className="text-sm text-resume-primary">{degree}</p>
+        {period && city &&(
+          <p className="text-xs text-resume-text-secondary mt-0.5">{period} - {city}</p>
         )}
       </div>
     </div>

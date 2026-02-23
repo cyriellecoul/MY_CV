@@ -95,7 +95,8 @@ export function MainContent() {
                 description={resolve(project.description)}
                 techs={project.techs}
                 url={project.url}
-                github={project.github}
+                googlePlay={project.googlePlay}
+                appleStore={project.appleStore}
               />
             ))}
           </div>
@@ -113,7 +114,7 @@ export function MainContent() {
               key={`${resolve(edu.school)}-${resolve(edu.degree)}-${edu.period ?? i}`}
               school={resolve(edu.school)}
               degree={resolve(edu.degree)}
-              specialty={edu.specialty ? resolve(edu.specialty) : undefined}
+              city={edu.city ? resolve(edu.city) : undefined}
               period={edu.period}
               logo={edu.logo}
             />

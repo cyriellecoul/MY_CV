@@ -70,7 +70,7 @@ export function ExperienceDetailsContent({
         </div>
       )}
 
-            {features && features.length > 0 && labels.mainFeatures && (
+    {features && features.length > 0 && (
         <div>
           <p className="text-xs font-semibold text-resume-text mb-2">{labels.mainFeatures}</p>
           <ul className="text-xs text-resume-text-secondary space-y-1">
