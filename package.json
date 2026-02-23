@@ -1,7 +1,8 @@
 {
-  "name": "interactive-CV",
+  "name": "MY_CV",
   "version": "1.0.0",
   "description": "An interactive resume",
+  "homepage": "https://cyriellecoul.github.io/MY_CV/",
   "keywords": [
     "resume",
     "cv",
@@ -19,6 +20,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -40,6 +43,7 @@
     "eslint": "^9.39.2",
     "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-react-refresh": "0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "16.5.0",
     "tailwindcss": "4.1.18",
     "typescript": "~5.9.3",

@@ -24,7 +24,6 @@ export function ExperienceDetailsContent({
   tasks,  
   features,
   training,
-  env,
   techs,
   description,
   labels,
