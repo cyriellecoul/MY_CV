@@ -82,7 +82,7 @@ export function ExperienceItem({
           )}
         >
           <div className="w-20 flex-shrink-0">
-            <span className="text-sm font-bold text-resume-primary">{year}</span>
+            <span className="text-xs font-bold text-resume-primary">{year}</span>
           </div>
 
           <div className="flex-1 min-w-0 relative">
@@ -91,7 +91,7 @@ export function ExperienceItem({
                 animate={{ rotate: expanded ? 180 : 0 }}
                 className="absolute top-0 right-0"
               >
-                <ChevronDownIcon className="w-4 h-4 text-resume-primary" />
+                <ChevronDownIcon className="w-4 h-4 text-resume-text-pink" />
               </motion.div>
             )}
             <div className="flex items-center gap-2 flex-wrap pr-6 md:pr-0">
@@ -102,7 +102,7 @@ export function ExperienceItem({
                 </span>
               )}
             </div>
-            <p className="text-xs text-resume-text-secondary mt-0.5">{role}</p>
+            <p className="text-ms text-resume-text-secondary mt-0.5 font-extrabold">{role}</p>
             <p className="text-xs text-resume-text-secondary/80 mt-1 line-clamp-2">{description}</p>
 
             <div className="flex flex-wrap gap-1.5 mt-2">

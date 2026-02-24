@@ -17,10 +17,10 @@ export function EducationItem({ school, degree, city, period, logo }: EducationI
         </div>
       )}
       <div>
-        <p className="text-base font-semibold text-resume-text">{school}</p>
-        <p className="text-sm text-resume-primary">{degree}</p>
+        <p className="text-sm text-resume-text-secondary">{school}</p>
+        <p className="text-base font-semibold text-resume-text font-bold">{degree}</p>
         {period && city &&(
-          <p className="text-xs text-resume-text-secondary mt-0.5">{period} - {city}</p>
+          <p className="text-sm text-resume-primary mt-0.5">{period} - {city}</p>
         )}
       </div>
     </div>

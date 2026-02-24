@@ -34,7 +34,7 @@ export function MainContent() {
           {resolve(personal.title).toUpperCase()}
         </p>
         {personal.subtitle && (
-          <p className="text-sm text-resume-primary mt-1">{resolve(personal.subtitle)}</p>
+          <p className="text-ms text-resume-primary mt-1 font-bold">{resolve(personal.subtitle)}</p>
         )}
       </div>
 

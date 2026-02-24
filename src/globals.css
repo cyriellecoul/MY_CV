@@ -9,6 +9,7 @@
   --color-resume-primary-light: var(--resume-primary-light);
   --color-resume-sidebar-from: var(--resume-sidebar-from);
   --color-resume-sidebar-to: var(--resume-sidebar-to);
+  --color-resume-text-pink: var(--resume-text-pink);
 }
 
 @variant dark (&:where(.dark, .dark *));
@@ -22,6 +23,7 @@
   --resume-primary-light: #737373;
   --resume-sidebar-from: #f4f4f4;
   --resume-sidebar-to: #ebebeb;
+  --resume-text-pink: #f472b6;
 }
 
 .dark {
@@ -33,6 +35,7 @@
   --resume-primary-light: #a3a3a3;
   --resume-sidebar-from: #0f0f0f;
   --resume-sidebar-to: #0a0a0a;
+  --resume-text-pink: #f472b6;
 }
 
 body {

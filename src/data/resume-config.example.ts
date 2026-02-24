@@ -139,27 +139,27 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
       description: {
-        en: 'Led the development of a SaaS platform used by 10k+ users. Built microservices architecture and modern React frontend.',
+        en: 'LDevelopment of a web platform and native applications used by over 10,000 users.',
         fr: 'Développement d\'une plateforme web et d\'applications natives utilisées par plus de 10K utilisateurs·rices.',
       },
       techs: ['AngularJS', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
       isHighlighted: true,
       details: {
         context: {
-          en: 'Team of 8 developers within a 50-person product company. Agile/Scrum methodology with 2-week sprints, CI/CD pipeline with GitHub Actions, code reviews on every PR.',
+          en: 'Team of 10 developers within a 13-person company. Agile/Scrum methodology with 2-week to 1-month sprints, CI/CD pipeline using GitHub Actions and Sentry, code review for each PR followed by QA.',
           fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines à 1 mois, pipeline CI/CD avec GitHub Actions et Sentry, Code Review sur chaque PR suivi de QA.',
         },
         tasks: {
           en: [
-            'Implemented role-based access control (RBAC) across the entire platform',
-            'Set up automated testing with 85% code coverage (unit, integration, E2E)',
-            'Led the migration from REST to GraphQL for the main API',
-            'Built a dashboard analytics module with interactive charts and export features',
-            'Mentored 3 junior developers through pair programming and weekly 1-on-1s',
+            'Developed and implemented new features.',
+            'Collaborated with back-end teams to integrate APIs (Node.js), conducting testing and debugging via Postman and Ngrok.',
+            'Queried and analyzed data using MongoDB.',
+            'Analyzed and resolved bugs, ensuring product quality (QA).',
+            'Collaborated on code reviews and pair programming sessions, contributing to team activities in an Agile setting.',
           ],
           fr: [
             'Conception et implémentation de nouvelles fonctionnalités.',
-            'Intégration d’API en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok',
+            'Intégration d’API en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok.',
             'Consultation et analyse de données via MongoDB.',
             'Analyse, résolution de bugs et contrôle qualité des produits (QA).',
             'Participation au code review, sessions de pair programming et rencontres d’équipe dans un environnement Agile.',
@@ -167,11 +167,12 @@ export const resumeConfig: ResumeConfig = {
         },
         features: {
           en: [
-            'AWS Solutions Architect certification',
-            'Formulaires internes (Formulaire discipline et technique)',
-            'Formulaires internes (Formulaire discipline et technique)',
-            'Formulaires internes (Formulaire discipline et technique)',
-            'Formulaires internes (Formulaire discipline et technique)',
+            'Internal communication module',
+            'Internal forms (disciplinary and technical forms)',
+            'Automatic vehicle departures and arrivals based on speed and location',
+            'Overview of upcoming routes for drivers',
+            'Improvements to mobile app UI and UX',
+            'Display of recent changes to routes, etc...',
           ],
           fr: [
             'Module de communication interne',
@@ -184,7 +185,7 @@ export const resumeConfig: ResumeConfig = {
         },
         training: {
           en: [
-            'AWS Solutions Architect certification',
+            'AI for developers (Techno Compétences) - March 2025',
           ],
           fr: [
             'IA pour développeurs (Techno Compétences) - mars 2025',
@@ -203,21 +204,22 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2018 - 09/2019', fr: '02/2018 - 09/2019' },
       description: {
-        en: 'Developed responsive web applications for various clients. Specialized in React and Angular projects.',
+        en: 'Managed technical aspects of the vehicle fleet, including inspections, transfers to car wash or charging stations, and equipping vehicles with missing essentials.',
         fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
       },
       techs: ['Travail d\'équipe', 'Communication', 'Suivi de projets', 'Autonomie', 'Service à la clientèle', 'Rigueur', 'Résolution de problèmes',],
       details: {
         context: {
-          en: 'Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.',
+          en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
           fr: 'Leader de l’autopartage au Canada avec plus de 4500 véhicules en libre-service dans 6 villes.',
         },
         tasks: {
           en: [
-            'Built 15+ client-facing web applications from scratch',
-            'Created and maintained a shared design system used across all agency projects',
-            'Implemented complex form workflows with multi-step validation',
-            'Implemented complex form workflows with multi-step validation', 'Implemented complex form workflows with multi-step validation',
+            'Maintain daily centralized tracking of actions with the logistics team via the internal application.',
+            'Conduct vehicle inspections (interior and exterior) to ensure proper functioning.',
+            'Ensure consistent workflow and optimal service quality.',
+            'Identify solutions to improve team performance.', 
+            'Communicated regularly with the team to ensure efficient fleet management.',
           ],
           fr: [
             'Établir un suivi quotidien et centralisé des actions avec l\'équipe logistique via l\'application interne.',
@@ -246,22 +248,21 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '06/2015 - 01/2018', fr: '06/2015 - 01/2018' },
       description: {
-        en: 'Contributed to the development of an e-commerce platform. Gained experience in fullstack development.',
+        en: 'Handled deliveries of medications and other items, ensuring a high standard of customer service with every client interaction.',
         fr: 'Effectuer les livraisons de médicaments et autres produits et assurer un service à la clientèle de qualité lors des interactions avec les clients.',
       },
       techs: ['Service à la clientèle', 'Prise d\'initiative', 'Autonomie', 'Ponctualité', 'Gestion du temps', 'Travail d\'équipe', 'Communication'],
       details: {
         context: {
-          en: 'Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.',
+          en: 'Human-scale, community-oriented pharmacy.',
           fr: 'Pharmacie de proximité à taille humaine.',
         },
         tasks: {
           en: [
-            'Developed the product catalog with advanced filtering and search',
-            'Built the shopping cart with real-time inventory checking',
-            'Integrated Stripe payment gateway with 3D Secure support',
-            'Implemented user authentication with JWT and OAuth (Google, Facebook)',
-            'Created an admin dashboard for order management and analytics',
+            'Prepare delivery bags and ensure their accuracy by asking verification questions.',
+            'Optimized delivery routes according to urgency.',
+            'Build strong relationships with clients to maintain high-quality service.',
+            'Communicated regularly with the team to guarantee seamless operations',
           ],
           fr: [
             'Préparer les sacs de livraison et s\'assurer de leur exactitude en vérifiant posant des questions.',
@@ -368,7 +369,7 @@ export const resumeConfig: ResumeConfig = {
   // Uncomment below only if you need to override the auto-detection:
   pdf: {
     label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-    path: { en: '/cv/en/resume-en.pdf', fr: '/cv/fr/resume-fr.pdf' },
+    path: { en: '/cv/en/CV_Cyrielle_en.pdf', fr: '/cv/fr/CV_Cyrielle_fr.pdf' },
   },
 
   // ===== THEME =====
