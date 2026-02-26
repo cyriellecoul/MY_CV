@@ -139,8 +139,8 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
       description: {
-        en: 'LDevelopment of a web platform and native applications used by over 10,000 users.',
-        fr: 'Développement d\'une plateforme web et d\'applications natives utilisées par plus de 10K utilisateurs·rices.',
+        en: 'Development of a web platform and native applications used by over 10,000 users.',
+        fr: 'Développement d\'une plateforme web et d\'applications natives utilisées par plus de 10 000 utilisateurs·rices.',
       },
       techs: ['AngularJS', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
       isHighlighted: true,
