@@ -200,7 +200,7 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'company-b',
       company: { en: 'Communauto', fr: 'Communauto' },
-      role: { en: 'Frontend Developer', fr: 'Agente de route' },
+      role: { en: 'Road agent', fr: 'Agente de route' },
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2018 - 09/2019', fr: '02/2018 - 09/2019' },
       description: {
