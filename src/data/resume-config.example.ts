@@ -268,7 +268,7 @@ export const resumeConfig: ResumeConfig = {
             'Communicated regularly with the team to guarantee seamless operations',
           ],
           fr: [
-            'Préparer les sacs de livraison et s\'assurer de leur exactitude en vérifiant posant des questions.',
+            'Préparer les sacs de livraison et s\'assurer de leur exactitude et en posant des questions.',
             'Optimiser les itinéraires en fonction des urgences.',
             'Établir une relation de proximité avec les clients afin de maintenir un service de qualité.',
             'Assurer une communication régulière avec l\'équipe pour le bon déroulement des opérations.',
