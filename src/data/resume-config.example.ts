@@ -15,7 +15,7 @@ export const resumeConfig: ResumeConfig = {
     name: 'Cyrielle Coulais',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
-    photo: '/images/profile.png',
+    photo: '👩‍💻',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Front-End & Mobile Developer',
@@ -46,11 +46,14 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'cyriellecoul', href: 'https://github.com/cyriellecoul' },
-    { type: 'linkedin', label: 'Cyrielle C', href: 'https://www.linkedin.com/in/cyrielle-c/' },
     { type: 'email', label: 'cyriellecoul@gmail.com' },
     { type: 'phone', label: '+1 514 442 2470' },
+
+    { type: 'portfolio', label: 'Mon portfolio', href: 'https://cyriellecoul.github.io/devPortfolio/' },
+    { type: 'linkedin', label: 'Cyrielle C', href: 'https://www.linkedin.com/in/cyrielle-c/' },
+    { type: 'github', label: 'cyriellecoul', href: 'https://github.com/cyriellecoul' },
     { type: 'location', label: 'Montréal, Québec' },
+
   ],
 
   // ===== SKILLS =====
@@ -113,8 +116,8 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: 'Git' },
         { name: 'GitHub' },
-        { name: 'Bitbucket' }, 
-        { name: 'Confluence' }, 
+        { name: 'Bitbucket' },
+        { name: 'Confluence' },
         { name: 'Jira' },
         { name: 'SourceTree' },
         { name: 'Docker' },
@@ -218,7 +221,7 @@ export const resumeConfig: ResumeConfig = {
             'Maintain daily centralized tracking of actions with the logistics team via the internal application.',
             'Conduct vehicle inspections (interior and exterior) to ensure proper functioning.',
             'Ensure consistent workflow and optimal service quality.',
-            'Identify solutions to improve team performance.', 
+            'Identify solutions to improve team performance.',
             'Communicated regularly with the team to ensure efficient fleet management.',
           ],
           fr: [

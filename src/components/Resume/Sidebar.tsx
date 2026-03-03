@@ -129,7 +129,7 @@ export function Sidebar() {
                         key={`${name}-${j}`}
                         className="flex items-center gap-3 px-4 py-2 rounded-xl 
                      bg-resume-card border border-resume-border font-bold text-resume-primary
-                     shadow-xl hover:shadow-md transition"
+                    "
                       >
                         <span className="font-medium text-resume-text-secondary">
                           {name}
