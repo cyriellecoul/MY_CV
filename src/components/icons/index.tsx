@@ -132,7 +132,10 @@ export function AppleStoreIcon(props: IconProps) {
 // --- Portfolio Icon ---
 export function PortfolioIcon(props: IconProps) {
   return (
-    <svg fill="#ffffff" width="64px" height="64px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" stroke-width="3.4560000000000004" stroke="currentColor" {...props}><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" ></g><g id="SVGRepo_iconCarrier"><path d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z"></path><path d="M33,28.45a9,9,0,0,1-9,9.05h0a9,9,0,0,1-9-9v-8.9a9,9,0,0,1,9-9h0a9,9,0,0,1,9,9.05"></path></g></svg>
+    <svg fill="#e1feec" width="64px" height="64px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" strokeWidth={4} stroke="currentColor" {...props}>
+      <g id="SVGRepo_bgCarrier" strokeWidth={2}></g><g id="SVGRepo_tracerCarrier" ></g>
+      <g id="SVGRepo_iconCarrier"><path d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z"></path><path d="M33,28.45a9,9,0,0,1-9,9.05h0a9,9,0,0,1-9-9v-8.9a9,9,0,0,1,9-9h0a9,9,0,0,1,9,9.05"></path></g>
+    </svg>
   )
 }
 
