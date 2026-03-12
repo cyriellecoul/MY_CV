@@ -18,8 +18,12 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/profile.png',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Front-End & Mobile Developer',
-      fr: 'Développeuse Front-End & Mobile',
+      en: 'Software Developer',
+      fr: 'Développeuse de logiciels',
+    },
+    titleSpecialized : {
+      en: 'Specialized in Front-End, Mobile et QA',
+      fr: 'Spécialisée en Front-End, Mobile et QA',
     },
     subtitle: {
       en: '5 years of experience',
@@ -30,8 +34,8 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Cyrielle Coulais — Front-End & Mobile Developer',
-    description: 'Interactive resume of Cyrielle Coulais, Front-End & Mobile Developer.',
+    title: 'Cyrielle Coulais — Software Developer',
+    description: 'Interactive resume of Cyrielle Coulais, Software Developer.',
   },
 
   // ===== LANGUAGES =====
@@ -49,7 +53,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'email', label: 'cyriellecoul@gmail.com' },
     { type: 'phone', label: '+1 514 442 2470' },
 
-    { type: 'portfolio', label: 'Mon portfolio', href: 'https://cyriellecoul.github.io/devPortfolio/' },
+    { type: 'portfolio', label: 'Portfolio', href: 'https://cyriellecoul.github.io/devPortfolio/' },
     { type: 'linkedin', label: 'Cyrielle C', href: 'https://www.linkedin.com/in/cyrielle-c/' },
     { type: 'github', label: 'cyriellecoul', href: 'https://github.com/cyriellecoul' },
     { type: 'location', label: 'Montréal, Québec' },

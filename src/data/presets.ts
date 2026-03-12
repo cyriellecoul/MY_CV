@@ -115,19 +115,16 @@ export const presets: Record<PresetName, ThemeColors> = {
   bgCard: '#ffffff',
   text: '#0f1f14',
   textSecondary: '#3e6b4f',
-
   bgDark: '#06110a',
   bgCardDark: '#0d1f14',
   textDark: '#e6fff0',
   textSecondaryDark: '#8fd9a8',
-  primary: '#00c853',          
+  primary: '#00b34a',          
   primaryLight: '#33e676',   
   primaryDark: '#00a844',  
   primaryLightDark: '#5cff9d',
-
   sidebarLight: '#e6ffef',
   sidebarLightEnd: '#ccffe0',
-
   sidebarDark: '#081710',
   sidebarDarkEnd: '#06110a',
 },
