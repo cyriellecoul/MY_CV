@@ -74,6 +74,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'React' },
         { name: 'JavaScript' },
         { name: 'TypeScript' },
+        { name: "PHP" },
         { name: 'HTML' },
         { name: 'CSS' },
         { name: 'Tailwind CSS' },
@@ -99,6 +100,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'REST APIs' },
         { name: 'Ngrok' },
         { name: 'Postman' },
+        {name : "Firebase"}
       ],
     },
     {
@@ -163,14 +165,14 @@ export const resumeConfig: ResumeConfig = {
         tasks: {
           en: [
             'Developed and implemented new features.',
-            'Collaborated with back-end teams to integrate APIs (Node.js), conducting testing and debugging via Postman and Ngrok.',
+            'Collaborated with back-end teams to integrate APIs REST (Node.js), conducting testing and debugging via Postman and Ngrok.',
             'Queried and analyzed data using MongoDB.',
             'Analyzed and resolved bugs, ensuring product quality (QA).',
             'Collaborated on code reviews and pair programming sessions, contributing to team activities in an Agile setting.',
           ],
           fr: [
             'Conception et implémentation de nouvelles fonctionnalités.',
-            'Intégration d’API en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok.',
+            'Intégration d’APIs REST en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok.',
             'Consultation et analyse de données via MongoDB.',
             'Analyse, résolution de bugs et contrôle qualité des produits (QA).',
             'Participation au code review, sessions de pair programming et rencontres d’équipe dans un environnement Agile.',
