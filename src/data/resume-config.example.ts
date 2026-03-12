@@ -153,7 +153,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Development of a web platform and applications used by over 10,000 users.',
         fr: 'Développement d\'une plateforme web et d\'applications utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['AngularJS', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
+      techs: ['Angular', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
       isHighlighted: true,
       details: {
         context: {
