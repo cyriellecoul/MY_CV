@@ -18,7 +18,7 @@ export interface ContactItem {
 
 export interface SkillCategory {
   title: LocalizedString
-  type: 'badges' | 'text' | 'languages'
+  type: 'badges' | 'text' | 'languages' | 'bullets'
   items: SkillItem[]
 }
 

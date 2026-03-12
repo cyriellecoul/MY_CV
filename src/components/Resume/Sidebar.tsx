@@ -110,7 +110,7 @@ export function Sidebar() {
                 </div>
               )}
               {category.type === 'text' && (
-                <p className="text-lg text-resume-text-secondary">
+                <p className="text-ml text-resume-text-secondary">
                   {category.items
                     .map((item) => (typeof item.name === 'string' ? item.name : resolve(item.name)))
                     .join(', ')}
@@ -136,14 +136,23 @@ export function Sidebar() {
                         </span>
                         {level && (
                           <span className="text-sm px-2 py-1 rounded-full 
-                             bg-resume-accent/10 
-                             text-resume-accent font-medium">
+                             text-resume-text-secondary">
                             {level}
                           </span>
                         )}
                       </div>
                     )
                   })}
+                </div>
+              )}
+              {category.type === 'bullets' && (
+                <div className="text-ml text-resume-text-secondary">
+                  {category.items.map((item, index) => (
+                    <span key={index}>
+                      • {typeof item.name === 'string' ? item.name : resolve(item.name)}
+                      <br />
+                    </span>
+                  ))}
                 </div>
               )}
             </SkillCategory>
@@ -159,7 +168,7 @@ export function Sidebar() {
               <div key={`${resolve(hobby.title)}-${i}`}>
                 <p className="font-medium text-sm text-resume-text">{resolve(hobby.title)}</p>
                 {hobby.details?.map((detail, j) => (
-                  <p key={j} className="text-xs text-resume-text-secondary">
+                  <p key={j} className="text-sm text-resume-text-secondary">
                     {resolve(detail)}
                   </p>
                 ))}

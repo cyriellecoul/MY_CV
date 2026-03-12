@@ -95,7 +95,7 @@ export function ExperienceItem({
               </motion.div>
             )}
             <div className="flex items-center gap-2 flex-wrap pr-6 md:pr-0">
-              <h3 className="text-sm font-semibold text-resume-text">{company}</h3>
+              <h3 className="text-xs font-semibold text-resume-text">{company}</h3>
               {type && (
                 <span className="text-xs px-2 py-0.5 bg-resume-primary/10 text-resume-primary rounded">
                   {type}
@@ -103,7 +103,7 @@ export function ExperienceItem({
               )}
             </div>
             <p className="text-ms text-resume-text-secondary mt-0.5 font-extrabold">{role}</p>
-            <p className="text-xs text-resume-text-secondary/80 mt-1 line-clamp-2">{description}</p>
+            <p className="text-sm text-resume-text-secondary/80 mt-1 line-clamp-3">{description}</p>
 
             <div className="flex flex-wrap gap-1.5 mt-2">
               {techs.map((tech) => (
@@ -130,7 +130,7 @@ export function ExperienceItem({
               exit={{ opacity: 0, height: 0 }}
               className="overflow-hidden"
             >
-              <div className="ml-10 mt-2 mb-4 p-4 bg-resume-bg rounded-lg border border-resume-primary/20">
+              <div className="ml-0 mt-2 mb-4 p-4 bg-resume-bg rounded-lg border border-resume-primary/20">
                 <ExperienceDetailsContent
                   context={details.context}
                   tasks={details.tasks}
@@ -171,7 +171,7 @@ export function ExperienceItem({
           {subItem && (
             <div className="pt-3 mt-3 border-t border-resume-primary/20">
               <p className="text-sm font-medium text-resume-text mb-1">{subItem.title}</p>
-              <p className="text-sm text-resume-text-secondary">{subItem.description}</p>
+              <p className="text-xl text-resume-text-secondary">{subItem.description}</p>
             </div>
           )}
         </Modal>

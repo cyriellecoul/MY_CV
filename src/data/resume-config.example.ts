@@ -70,7 +70,7 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Front-End', fr: 'Front-End' },
       type: 'badges',
       items: [
-        { name: 'AngularJS' },
+        { name: 'Angular' },
         { name: 'React' },
         { name: 'JavaScript' },
         { name: 'TypeScript' },
@@ -106,8 +106,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'badges',
       items: [
         { name: 'MongoDB' },
-        { name: 'MySQL' },
-
+        { name: 'NoSQL' },
       ],
     },
     {
@@ -128,8 +127,17 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Methodologies', fr: 'Méthodologies' },
       type: 'text',
       items: [
-        { name: { en: 'Agile/Scrum, Code Review, QA', fr: 'Agile/Scrum, Code Review, QA' } },
+        { name: { en: 'Agile/Scrum, Code Review, Pull Requests', fr: 'Agile/Scrum, Code Review, Pull Requests' } },
       ],
+    },
+    {
+      title: { en: 'Quality & Tests', fr: 'Qualité & Tests' },
+      type: 'bullets',
+      items: [
+        { name: { en: 'Unit tests', fr: 'Tests unitaires' } },
+        { name: { en: 'Integration tests', fr: 'Tests d’intégration' } },
+        { name: { en: 'Automated tests with Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+      ]
     },
   ],
 
@@ -142,15 +150,15 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
       description: {
-        en: 'Development of a web platform and native applications used by over 10,000 users.',
-        fr: 'Développement d\'une plateforme web et d\'applications natives utilisées par plus de 10 000 utilisateurs·rices.',
+        en: 'Development of a web platform and applications used by over 10,000 users.',
+        fr: 'Développement d\'une plateforme web et d\'applications utilisées par plus de 10 000 utilisateurs·rices.',
       },
       techs: ['AngularJS', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
       isHighlighted: true,
       details: {
         context: {
-          en: 'Team of 10 developers within a 13-person company. Agile/Scrum methodology with 2-week to 1-month sprints, CI/CD pipeline using GitHub Actions and Sentry, code review for each PR followed by QA.',
-          fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines à 1 mois, pipeline CI/CD avec GitHub Actions et Sentry, Code Review sur chaque PR suivi de QA.',
+          en: 'Team of 10 developers within a 13-person company. Agile/Scrum framework using time-boxed sprints, CI/CD pipeline using GitHub Actions and Sentry, code review for each PR followed by QA.',
+          fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum basée sur des sprints avec une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, Code Review sur chaque PR suivi de QA.',
         },
         tasks: {
           en: [
@@ -210,7 +218,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Managed technical aspects of the vehicle fleet, including inspections, transfers to car wash or charging stations, and equipping vehicles with missing essentials.',
         fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
       },
-      techs: ['Travail d\'équipe', 'Communication', 'Suivi de projets', 'Autonomie', 'Service à la clientèle', 'Rigueur', 'Résolution de problèmes',],
+      techs: ['Travail d\'équipe', 'Adaptabilité / Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
       details: {
         context: {
           en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
@@ -254,7 +262,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Handled deliveries of medications and other items, ensuring a high standard of customer service with every client interaction.',
         fr: 'Effectuer les livraisons de médicaments et autres produits et assurer un service à la clientèle de qualité lors des interactions avec les clients.',
       },
-      techs: ['Service à la clientèle', 'Prise d\'initiative', 'Autonomie', 'Ponctualité', 'Gestion du temps', 'Travail d\'équipe', 'Communication'],
+      techs: ['Empathie et écoute active', 'Service à la clientèle', 'Prise d\'initiatives', 'Autonomie', 'Gestion du temps', 'Travail d\'équipe', 'Gestion du stress'],
       details: {
         context: {
           en: 'Human-scale, community-oriented pharmacy.',
@@ -321,13 +329,19 @@ export const resumeConfig: ResumeConfig = {
         en: 'Transport - Web Portal is a complete platform that includes many tools that allow dispatchers to track the vehicle fleet in real time on a map',
         fr: 'Transport - Portail Web est une plateforme complète qui comprend beaucoup d’outils permettant aux répartiteur·rice·s de pouvoir suivre en temps réel la flotte automobile sur une carte. Elle facilite, entre autres, la planification des trajets et l’affectation des conducteur·rice·s.',
       },
-      techs: ['AngularJs', 'JavaScript', 'Node.js', 'REST APIs', 'HTML', 'CSS'],
+      techs: ['Angular', 'JavaScript', 'Node.js', 'REST APIs', 'HTML', 'CSS'],
       url: 'https://portail.mtransport.ca/#!/',
     },
   ],
 
   // ===== EDUCATION =====
   education: [
+    {
+      school: { en: 'Udemy', fr: 'Udemy' },
+      degree: { en: 'Selenium Webdriver - Udemy Certificate', fr: 'Selenium Webdriver - Certificat Udemy' },
+      city: { en: 'Online', fr: 'En ligne' },
+      period: '02/2026 - 03/2026',
+    },
     {
       school: { en: 'Collège Ahuntsic', fr: 'Collège Ahuntsic' },
       degree: { en: 'AEC in Mobile Application Development', fr: 'AEC - Développement d\'applications mobiles' },

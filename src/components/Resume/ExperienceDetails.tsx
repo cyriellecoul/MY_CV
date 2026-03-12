@@ -29,7 +29,7 @@ export function ExperienceDetailsContent({
   labels,
   variant,
 }: ExperienceDetailsContentProps) {
-  const MAX_INLINE_TASKS = 8
+  const MAX_INLINE_TASKS = 10
 
   return (
     <div className="space-y-3">
@@ -53,8 +53,8 @@ export function ExperienceDetailsContent({
       )}
        {tasks && tasks.length > 0 && (
         <div>
-          <p className="text-xs font-semibold text-resume-text mb-2">{labels.mainTasks}</p>
-          <ul className="text-xs text-resume-text-secondary space-y-1">
+          <p className="text-sm font-semibold text-resume-text mb-2">{labels.mainTasks}</p>
+          <ul className="text-ml text-resume-text-secondary space-y-0">
             {(variant === 'inline' ? tasks.slice(0, MAX_INLINE_TASKS) : tasks).map((task, i) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-resume-primary">&#8226;</span>
@@ -72,8 +72,8 @@ export function ExperienceDetailsContent({
 
     {features && features.length > 0 && (
         <div>
-          <p className="text-xs font-semibold text-resume-text mb-2">{labels.mainFeatures}</p>
-          <ul className="text-xs text-resume-text-secondary space-y-1">
+          <p className="text-sm font-semibold text-resume-text mb-2">{labels.mainFeatures}</p>
+          <ul className="text-ml text-resume-text-secondary space-y-0">
             {features.map((item, i) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-resume-primary">&#8226;</span>
@@ -86,8 +86,8 @@ export function ExperienceDetailsContent({
 
       {training && training.length > 0 && labels.training && (
         <div>
-          <p className="text-xs font-semibold text-resume-text mb-2">{labels.training}</p>
-          <ul className="text-xs text-resume-text-secondary space-y-1">
+          <p className="text-sm font-semibold text-resume-text mb-2">{labels.training}</p>
+          <ul className="text-ml text-resume-text-secondary space-y-1">
             {training.map((item, i) => (
               <li key={i} className="flex items-start gap-2">
                 <span className="text-resume-primary">&#8226;</span>

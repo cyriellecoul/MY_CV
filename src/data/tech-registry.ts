@@ -7,7 +7,7 @@
 const TECH_REGISTRY = {
   // ===== Frontend Frameworks =====
   'React': { color: '#4FC08D' },
-  'AngularJS': { color: '#DD0031' },
+  'Angular': { color: '#DD0031' },
   'Vue': { color: '#4FC08D' },
   'Vue.js': { color: '#4FC08D' },
   'Svelte': { color: '#FF3E00' },
@@ -42,7 +42,7 @@ const TECH_REGISTRY = {
   'Kotlin': { color: '#7F52FF' },
   'Dart': { color: '#0175C2' },
   'Objective-C': { color: '#61DAFB' },
-  'Android Studio': { color: '#FF00C8' },
+  'Android Studio': { color: '#A6FF00' },
   'Haskell': { color: '#5D4F85' },
   'Lua': { color: '#2C2D72' },
   'R': { color: '#276DC3' },
@@ -133,7 +133,7 @@ const TECH_REGISTRY = {
   'Framer Motion': { color: '#0055FF' },
 
   // ===== Tools & Others =====
-  'Git': { color: '#A6FF00' },
+  'Git': { color: '#FF00C8' },
   'GitHub': { color: '#3178C6' },
   'GitLab': { color: '#FC6D26' },
   'GraphQL': { color: '#E10098' },
@@ -187,15 +187,16 @@ const TECH_REGISTRY = {
 
   // ===== Soft Skills =====
   'Travail d\'équipe': { color: '#FF6A00' },
-  'Communication': { color: '#A6FF00' },
+  'Adaptabilité / Flexibilité ': { color: '#A6FF00' },
   'Suivi de projets': { color: '#00E676' },
-  'Autonomie': { color: '#00D4FF' },
+  'Autonomie': { color: '#DC322F' },
   'Service à la clientèle': { color: '#0066FF' },
   'Rigueur': { color: '#7B00FF' },
   'Résolution de problèmes': { color: '#0769AD' },
-  'Gestion du temps': { color: '#DC322F' },
-  'Ponctualité': { color: '#FF1493' },
-  'Prise d\'initiative': { color: '#FF0033' },
+  'Gestion du temps': { color: '#00D4FF' },
+  'Empathie et écoute active': { color: '#FF1493' },
+  'Prise d\'initiatives': { color: '#FF0033' },
+  'Gestion du stress': {color :'#007396' }
 
 } as const satisfies Record<string, { color: string }>
 
