@@ -392,7 +392,7 @@ export const resumeConfig: ResumeConfig = {
   // Uncomment below only if you need to override the auto-detection:
   pdf: {
     label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-    path: { en: '/cv/en/CV_Cyrielle_en.pdf', fr: '/cv/fr/CV_Cyrielle_fr.pdf' },
+    path: { en: '/cv/en/Cyrielle_CV_EN.pdf', fr: '/cv/fr/Cyrielle_CV_FR.pdf' },
   },
 
   // ===== THEME =====
