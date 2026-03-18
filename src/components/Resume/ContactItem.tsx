@@ -60,7 +60,7 @@ export function ContactItem({ type, label, href }: ContactItemProps) {
         onClick={handleCopy}
         className="group flex items-center gap-3 text-sm text-resume-text-secondary hover:text-resume-primary transition-colors duration-200 cursor-pointer"
       >
-        <span className="relative w-4 h-4 group-hover:scale-115 transition-transform duration-200">
+        <span className="relative w-4 h-4 text-resume-primary group-hover:scale-115 transition-transform duration-200">
           <AnimatePresence mode="wait">
             {copied ? (
               <motion.span
@@ -69,7 +69,7 @@ export function ContactItem({ type, label, href }: ContactItemProps) {
                 animate={{ scale: 1, opacity: 1 }}
                 exit={{ scale: 0, opacity: 0 }}
                 transition={{ duration: 0.10, ease: 'easeOut' }}
-                className="absolute inset-0 text-green-500"
+                className="absolute inset-0 text-resume-primary"
               >
                 <CheckIcon className="w-4 h-4" />
               </motion.span>
