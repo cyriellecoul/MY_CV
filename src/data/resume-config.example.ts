@@ -21,7 +21,7 @@ export const resumeConfig: ResumeConfig = {
       en: 'Software Developer',
       fr: 'Développeuse de logiciels',
     },
-    titleSpecialized : {
+    titleSpecialized: {
       en: 'Specialized in Front-End, Mobile et QA',
       fr: 'Spécialisée en Front-End, Mobile et QA',
     },
@@ -104,7 +104,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'REST APIs' },
         { name: 'Ngrok' },
         { name: 'Postman' },
-        {name : "Firebase"}
+        { name: "Firebase" }
       ],
     },
     {
@@ -116,24 +116,21 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'DevOps', fr: 'DevOps' },
+      title: { en: 'DevOps & Methodologies', fr: 'DevOps & Méthodologies' },
       type: 'badges',
       items: [
         { name: 'Git' },
         { name: 'GitHub' },
         { name: 'Bitbucket' },
+        { name: 'QA' },
         { name: 'Confluence' },
-        { name: 'Jira' },
+        { name: 'Agile/Scrum' },
+        { name: 'Code Review' },
+        { name: 'Pull Requests' },
         { name: 'SourceTree' },
         { name: 'Docker' },
         { name: 'Figma' },
-      ],
-    },
-    {
-      title: { en: 'Methodologies', fr: 'Méthodologies' },
-      type: 'text',
-      items: [
-        { name: { en: 'Agile/Scrum, Code Review, Pull Requests', fr: 'Agile/Scrum, Code Review, Pull Requests' } },
+
       ],
     },
     {
@@ -168,17 +165,17 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            'Developed and implemented new features.',
+            'Developed and implemented new features in Front-End and Mobile.',
+            'Analyzed and resolved bugs, ensuring tech product quality (QA).',
             'Collaborated with back-end teams to integrate APIs REST (Node.js), conducting testing and debugging via Postman and Ngrok.',
-            'Queried and analyzed data using MongoDB.',
-            'Analyzed and resolved bugs, ensuring product quality (QA).',
+            'Data querying and analysis using MongoDB, with fundamental knowledge of NoSQL.',
             'Collaborated on code reviews and pair programming sessions, contributing to team activities in an Agile setting.',
           ],
           fr: [
-            'Conception et implémentation de nouvelles fonctionnalités.',
+            'Conception et implémentation de nouvelles fonctionnalités en Front-End et Mobile.',
+            'Analyse, résolution de bugs et contrôle qualité des produits numériques (QA).',
             'Intégration d’APIs REST en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok.',
-            'Consultation et analyse de données via MongoDB.',
-            'Analyse, résolution de bugs et contrôle qualité des produits (QA).',
+            'Consultation et analyse de données via MongoDB, avec des notions essentielles de NoSQL.',
             'Participation au code review, sessions de pair programming et rencontres d’équipe dans un environnement Agile.',
           ],
         },
@@ -198,14 +195,6 @@ export const resumeConfig: ResumeConfig = {
             'Aperçu des trajets futurs pour les conducteurs·rices',
             'Améliorations du UI et UX de l’application mobile',
             'Affichage des modifications récentes sur les itinéraires, etc...',
-          ],
-        },
-        training: {
-          en: [
-            'AI for developers (Techno Compétences) - March 2025',
-          ],
-          fr: [
-            'IA pour développeurs (Techno Compétences) - mars 2025',
           ],
         },
         env: {
@@ -349,6 +338,12 @@ export const resumeConfig: ResumeConfig = {
       period: '02/2026 - 03/2026',
     },
     {
+      school: { en: 'Intern training', fr: 'Formation interne' },
+      degree: { en: 'AI for developers (Techno Compétences)', fr: 'IA pour développeurs (Techno Compétences)' },
+      city: { en: 'Montreal, CA', fr: 'Montréal, CA' },
+      period: '03/2025 - 03/2025',
+    },
+    {
       school: { en: 'Collège Ahuntsic', fr: 'Collège Ahuntsic' },
       degree: { en: 'AEC in Mobile Application Development', fr: 'AEC - Développement d\'applications mobiles' },
       city: { en: 'Montreal, CA', fr: 'Montréal, CA' },
@@ -365,25 +360,23 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Squash', fr: 'Squash' },
-    },
-    {
-      title: { en: 'Balle Molle', fr: 'Balle Molle' },
+      title: { en: 'A favorite subject?', fr: 'Un sujet de prédilection ?' },
       details: [
-        { en: 'In 2 summer leagues', fr: 'Dans 2 équipes en été' },
+        { en: 'The city of Montreal and which means of transport to choose to go from point A to B optimally.', fr: 'La ville de Montréal et les moyens de transport à choisir pour se déplacer de A à B de manière optimale.' },
       ],
-    },
-    {
+    }, {
       title: { en: 'Arts', fr: 'Arts' }, details: [
         { en: 'In all its forms: exhibitions, museums, circus, music, theater, drag, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, drag, etc.)' },
       ],
     },
     {
-      title: { en: 'A favorite subject?', fr: 'Un sujet de prédilection ?' },
+      title: { en: 'Sports', fr: 'Sports' },
       details: [
-        { en: 'The city of Montreal and which means of transport to choose to go from point A to B optimally.', fr: 'La ville de Montréal et les moyens de transport à choisir pour se déplacer de A à B de manière optimale.' },
+        { en: 'Squash & Balle Molle', fr: 'Squash & Balle Molle' },
       ],
     },
+
+
   ],
 
   // ===== PDF (optional) =====

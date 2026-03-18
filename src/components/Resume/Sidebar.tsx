@@ -97,7 +97,7 @@ export function Sidebar() {
       </SidebarSection>
 
       {/* Skills */}
-      <SidebarSection title={resolve(labels.sections.skills)} className='mt-10'>
+      <SidebarSection title={resolve(labels.sections.skills)} className='mt-6'>
         <div className="space-y-5">
           {skills.map((category, i) => (
             <SkillCategory key={`${resolve(category.title)}-${i}`} title={resolve(category.title)}>
@@ -110,14 +110,14 @@ export function Sidebar() {
                 </div>
               )}
               {category.type === 'text' && (
-                <p className="text-ml text-resume-text-secondary">
+                <p className="text-sm text-resume-text-secondary">
                   {category.items
                     .map((item) => (typeof item.name === 'string' ? item.name : resolve(item.name)))
                     .join(', ')}
                 </p>
               )}
               {category.type === 'languages' && (
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-2">
                   {category.items.map((item, j) => {
                     const name =
                       typeof item.name === 'string' ? item.name : resolve(item.name)
@@ -127,16 +127,17 @@ export function Sidebar() {
                     return (
                       <div
                         key={`${name}-${j}`}
-                        className="flex items-center gap-3 px-4 py-2 rounded-xl 
-                     bg-resume-card border border-resume-border font-bold text-resume-primary
-                    "
+                        className="flex items-center gap-2 px-3 py-1 rounded-lg
+          bg-resume-card/60 border border-resume-border/60
+          text-sm text-resume-text-secondary"
                       >
-                        <span className="font-medium text-resume-text-secondary">
+                        <span className="text-resume-primary">
                           {name}
                         </span>
+
                         {level && (
-                          <span className="text-sm px-2 py-1 rounded-full 
-                             text-resume-text-secondary">
+                          <span className="text-xs px-2 py-0.5 rounded-md 
+            bg-resume-border/40 text-resume-text-secondary font-bold">
                             {level}
                           </span>
                         )}
@@ -146,7 +147,7 @@ export function Sidebar() {
                 </div>
               )}
               {category.type === 'bullets' && (
-                <div className="text-ml text-resume-text-secondary">
+                <div className="text-sm text-resume-text-secondary">
                   {category.items.map((item, index) => (
                     <span key={index}>
                       • {typeof item.name === 'string' ? item.name : resolve(item.name)}
@@ -162,7 +163,7 @@ export function Sidebar() {
 
       {/* Hobbies */}
       {hobbies && hobbies.length > 0 && labels.sections.hobbies && (
-        <SidebarSection title={resolve(labels.sections.hobbies)} className='mt-10'>
+        <SidebarSection title={resolve(labels.sections.hobbies)} className='mt-6'>
           <div className="grid grid-cols-2 gap-3">
             {hobbies.map((hobby, i) => (
               <div key={`${resolve(hobby.title)}-${i}`}>

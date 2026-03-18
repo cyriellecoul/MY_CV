@@ -98,12 +98,12 @@ const TECH_REGISTRY = {
 
   // ===== DevOps & Cloud =====
   'Docker': { color: '#2496ED' },
-  'Kubernetes': { color: '#326CE5' },
+  'Agile/Scrum': { color: '#326CE5' },
   'AWS': { color: '#FF9900' },
   'GCP': { color: '#4285F4' },
   'Google Cloud': { color: '#4285F4' },
-  'Azure': { color: '#0078D4' },
-  'Terraform': { color: '#7B42BC' },
+  'QA': { color: '#F24E1E' },
+  'Pull Requests': { color: '#7B42BC' },
   'GitHub Actions': { color: '#2088FF' },
   'GitLab CI': { color: '#FC6D26' },
   'Jenkins': { color: '#D24939' },
@@ -112,8 +112,7 @@ const TECH_REGISTRY = {
   'Cloudflare': { color: '#F38020' },
   'Heroku': { color: '#430098' },
   'Ngrok': { color: '#0080FF' },
-  'Nginx': { color: '#009639' },
-  'Linux': { color: '#FCC624' },
+  'Code Review': { color: '#FF4785' },
 
   // ===== CSS & UI =====
   'Tailwind CSS': { color: '#06B6D4' },
@@ -139,14 +138,14 @@ const TECH_REGISTRY = {
   'GraphQL': { color: '#E10098' },
   'REST APIs': { color: '#FFCA28' },
   'Prisma': { color: '#2D3748' },
-  'SourceTree': { color: '#F7DF1E' },
+ 
   'Vite': { color: '#646CFF' },
   'Webpack': { color: '#8DD6F9' },
   'Rollup': { color: '#EC4A3F' },
   'esbuild': { color: '#FFCF00' },
   'Turbopack': { color: '#000000' },
-  'Storybook': { color: '#FF4785' },
-  'Figma': { color: '#F24E1E' },
+  'SourceTree': { color: '#FCC624' },
+  'Figma': { color: '#0078D4' },
   'Stripe': { color: '#635BFF' },
   'Atlassian': { color: '#DC322F' },
 
