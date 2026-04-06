@@ -18,12 +18,12 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/profile.png',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Software Developer',
-      fr: 'Développeuse de logiciels',
+      en: 'Quality Assurance Analyst (QA)',
+      fr: 'Analyste en assurance qualité (QA)',
     },
     titleSpecialized: {
-      en: 'Specialized in Front-End, Mobile et QA',
-      fr: 'Spécialisée en Front-End, Mobile et QA',
+      en: 'Specialized in functional, regression, and exploratory testing on mobile and web.',
+      fr: 'Spécialisée en tests fonctionnels, de régression et exploratoires sur mobile et web',
     },
     subtitle: {
       en: '5 years of experience',
@@ -34,8 +34,8 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Cyrielle Coulais — Software Developer',
-    description: 'Interactive resume of Cyrielle Coulais, Software Developer.',
+    title: 'Cyrielle Coulais — Quality Assurance Analyst',
+    description: 'Interactive resume of Cyrielle Coulais, Quality Assurance Analyst.',
   },
 
   // ===== LANGUAGES =====
@@ -69,6 +69,17 @@ export const resumeConfig: ResumeConfig = {
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
         { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' } },
       ],
+    },
+    {
+      title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
+      type: 'bullets',
+        items: [
+    { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
+    { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
+    { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+    { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
+    { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
+  ]
     },
     {
       title: { en: 'Front-End', fr: 'Front-End' },
@@ -133,15 +144,6 @@ export const resumeConfig: ResumeConfig = {
 
       ],
     },
-    {
-      title: { en: 'Quality & Tests', fr: 'Qualité & Tests' },
-      type: 'bullets',
-      items: [
-        { name: { en: 'Unit tests', fr: 'Tests unitaires' } },
-        { name: { en: 'Integration tests', fr: 'Tests d’intégration' } },
-        { name: { en: 'Automated tests with Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
-      ]
-    },
   ],
 
   // ===== PROFESSIONAL EXPERIENCES =====
@@ -149,7 +151,7 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'company-a',
       company: { en: 'mPhase', fr: 'mPhase' },
-      role: { en: 'Software developer', fr: 'Développeuse logiciels' },
+      role: { en: 'QA Analyst & Software Developer', fr: 'Analyste QA & Développeuse logiciels' },
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
       description: {
