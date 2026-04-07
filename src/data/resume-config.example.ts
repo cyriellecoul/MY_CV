@@ -34,8 +34,8 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Cyrielle Coulais — Quality Assurance Analyst',
-    description: 'Interactive resume of Cyrielle Coulais, Quality Assurance Analyst.',
+    title: 'Cyrielle C — Quality Assurance Analyst',
+    description: 'Interactive resume of Cyrielle C, Quality Assurance Analyst.',
   },
 
   // ===== LANGUAGES =====
@@ -387,7 +387,7 @@ export const resumeConfig: ResumeConfig = {
   // Uncomment below only if you need to override the auto-detection:
   pdf: {
     label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-    path: { en: '/cv/en/Cyrielle_CV_EN.pdf', fr: '/cv/fr/Cyrielle_CV_FR.pdf' },
+    path: { en: '/cv/en/CV_Cyrielle_QAAnalyst_EN.pdf', fr: '/cv/fr/CyrielleC_QAAnalyste_FR.pdf' },
   },
 
   // ===== THEME =====
