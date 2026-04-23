@@ -7,7 +7,7 @@
 const TECH_REGISTRY = {
   // ===== Frontend Frameworks =====
   'React': { color: '#4FC08D' },
-  'Angular': { color: '#DD0031' },
+  'Angular': { color: '#7F52FF' },
   'Vue': { color: '#4FC08D' },
   'Vue.js': { color: '#4FC08D' },
   'Svelte': { color: '#FF3E00' },
@@ -27,7 +27,7 @@ const TECH_REGISTRY = {
 
   // ===== Languages =====
   'TypeScript': { color: '#3178C6' },
-  'JavaScript': { color: '#F7DF1E' },
+  'JavaScript': { color: '#339933' },
   'Python': { color: '#3776AB' },
   'Java': { color: '#E34F26' },
   'Go': { color: '#00ADD8' },
@@ -42,7 +42,7 @@ const TECH_REGISTRY = {
   'Kotlin': { color: '#7F52FF' },
   'Dart': { color: '#0175C2' },
   'Objective-C': { color: '#61DAFB' },
-  'Android Studio': { color: '#A6FF00' },
+  'Android Studio': { color: '#276DC3' },
   'Haskell': { color: '#5D4F85' },
   'Lua': { color: '#2C2D72' },
   'R': { color: '#276DC3' },
@@ -52,8 +52,7 @@ const TECH_REGISTRY = {
   'OCaml': { color: '#EC6813' },
 
   // ===== Backend Frameworks =====
-  'Node.js': { color: '#339933' },
-  'NodeJS': { color: '#339933' },
+  'Node.js': { color: '#00ADD8' },
   'Express': { color: '#000000' },
   'Express.js': { color: '#000000' },
   'NestJS': { color: '#E0234E' },
@@ -136,7 +135,7 @@ const TECH_REGISTRY = {
   'GitHub': { color: '#3178C6' },
   'GitLab': { color: '#FC6D26' },
   'GraphQL': { color: '#E10098' },
-  'REST APIs': { color: '#FFCA28' },
+  'REST APIs': { color: '#FF6F00' },
   'Prisma': { color: '#2D3748' },
  
   'Vite': { color: '#646CFF' },
@@ -152,7 +151,7 @@ const TECH_REGISTRY = {
   // ===== Testing =====
   'Jest': { color: '#C21325' },
   'Vitest': { color: '#6E9F18' },
-  'Jira': { color: '#69D3A7' },
+  'Jira': { color: '#EE4C2C' },
   'Confluence': { color: '#2596BE' },
   'Testing Library': { color: '#E33332' },
   'Bitbucket': { color: '#2EAD33' },

@@ -22,12 +22,35 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Analyste en assurance qualité (QA)',
     },
     titleSpecialized: {
-      en: 'Specialized in functional, regression, and exploratory testing on mobile and web.',
-      fr: 'Spécialisée en tests fonctionnels, de régression et exploratoires sur mobile et web',
-    },
-    subtitle: {
-      en: '5 years of experience',
-      fr: '5 ans d\'expérience',
+      titleSpecialized1: {
+        en: 'After',
+        fr: 'Après',
+      },
+      titleSpecialized2: {
+        en: ' 5 years of experience',
+        fr: ' 5 années d’expérience',
+      },
+      titleSpecialized3: {
+        en: ' as a ',
+        fr: ' en tant que ',
+      },
+      titleSpecialized4: {
+        en: 'software developer ',
+        fr: 'développeuse logiciels, ',
+      },
+      titleSpecialized5: {
+        en: ' I am now looking to transition into a ',
+        fr: 'je souhaite aujourd’hui orienter ma carrière vers un poste ',
+      },
+      titleSpecialized6: {
+        en: 'manual and automated QA role ',
+        fr: 'd\'analyste QA manuel et automatisé ',
+      },
+      titleSpecialized7: {
+        en: 'in order to contribute to the reliability and performance of digital products.',
+        fr: 'afin de contribuer à la fiabilité et performance des produits numériques.',
+      },
+
     },
     location: 'Montréal, Québec',
   },
@@ -73,65 +96,26 @@ export const resumeConfig: ResumeConfig = {
     {
       title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
       type: 'bullets',
-        items: [
-    { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
-    { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-    { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
-    { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
-    { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
-  ]
+      items: [
+        { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
+        { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
+        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+        { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
+        { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
+      ]
     },
     {
-      title: { en: 'Front-End', fr: 'Front-End' },
+      title: { en: 'Tools & Tech Stack', fr: 'Outils & Tech Stack' },
       type: 'badges',
       items: [
-        { name: 'Angular' },
-        { name: 'React' },
-        { name: 'JavaScript' },
-        { name: 'TypeScript' },
-        { name: "PHP" },
-        { name: 'HTML' },
-        { name: 'CSS' },
-        { name: 'Tailwind CSS' },
-        { name: 'Next.js' },
-      ],
-    },
-    {
-      title: { en: 'Mobile', fr: 'Mobile' },
-      type: 'badges',
-      items: [
-        { name: 'Java' },
-        { name: 'Objective-C' },
-        { name: 'React Native' },
-        { name: 'Android Studio' },
-        { name: 'Xcode' },
-      ],
-    },
-    {
-      title: { en: 'Back-End', fr: 'Back-End' },
-      type: 'badges',
-      items: [
-        { name: 'Node.js' },
-        { name: 'REST APIs' },
-        { name: 'Ngrok' },
+        { name: 'Jira' },
+        { name: 'Git' },
         { name: 'Postman' },
-        { name: "Firebase" }
-      ],
-    },
-    {
-      title: { en: 'Database', fr: 'Base de données' },
-      type: 'badges',
-      items: [
+        { name: 'Java' },
+        { name: 'Node.js' },
+        { name: 'JavaScript' },
         { name: 'MongoDB' },
         { name: 'NoSQL' },
-      ],
-    },
-    {
-      title: { en: 'DevOps & Methodologies', fr: 'DevOps & Méthodologies' },
-      type: 'badges',
-      items: [
-        { name: 'Git' },
-        { name: 'GitHub' },
         { name: 'Bitbucket' },
         { name: 'QA' },
         { name: 'Confluence' },
@@ -140,8 +124,18 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Pull Requests' },
         { name: 'SourceTree' },
         { name: 'Docker' },
-        { name: 'Figma' },
-
+       { name: 'GitHub' },
+        { name: 'Objective-C' },
+        { name: 'HTML' },
+        { name: 'CSS' },
+        { name: 'React' },
+        { name: 'Angular' },
+        { name: 'React Native' },
+        { name: 'Android Studio' },
+        { name: 'Xcode' },
+        { name: 'REST APIs' },
+        { name: 'Ngrok' },
+        { name: 'Selenium' },
       ],
     },
   ],
@@ -155,10 +149,10 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
       description: {
-        en: 'Development of a web platform and applications used by over 10,000 users.',
-        fr: 'Développement d\'une plateforme web et d\'applications utilisées par plus de 10 000 utilisateurs·rices.',
+        en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
+        fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Angular', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
+      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode'],
       isHighlighted: true,
       details: {
         context: {
@@ -167,18 +161,18 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            'Developed and implemented new features in Front-End and Mobile.',
-            'Analyzed and resolved bugs, ensuring tech product quality (QA).',
-            'Collaborated with back-end teams to integrate APIs REST (Node.js), conducting testing and debugging via Postman and Ngrok.',
-            'Data querying and analysis using MongoDB, with fundamental knowledge of NoSQL.',
-            'Collaborated on code reviews and pair programming sessions, contributing to team activities in an Agile setting.',
+            'Analysis, bug fixing, and quality assurance of digital products: --- Performed daily **regression testing** during branch checkouts. --- Executed **manual testing** on both complete and partial features. --- Used **simulators via Android Studio and Xcode** to validate features across various configurations in Android and iOS environments. --- Performed **unit testing** on REST APIs (Node.js) using **Postman** and **Ngrok**. --- Creation of **test data** and validation of functionalities.',
+            '**Developed and implemented** new features in Front-End and Mobile.',
+            'Data querying and **analysis using MongoDB**, with fundamental knowledge of **NoSQL**.',
+            'Involvement in daily meetings to **ensure proper tracking of ongoing projects**.',
+            'Collaborated on code reviews and pair programming sessions, and team meetings within an **Agile/Scrum environment**.',
           ],
           fr: [
-            'Conception et implémentation de nouvelles fonctionnalités en Front-End et Mobile.',
-            'Analyse, résolution de bugs et contrôle qualité des produits numériques (QA).',
-            'Intégration d’APIs REST en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok.',
-            'Consultation et analyse de données via MongoDB, avec des notions essentielles de NoSQL.',
-            'Participation au code review, sessions de pair programming et rencontres d’équipe dans un environnement Agile.',
+            'Analyse, résolution des anomalies et assurance qualité des produits numériques : --- Réalisation de **tests de régression** quotidiens lors du checkout des branches. --- Exécution de **tests manuels** sur des fonctionnalités complètes et partielles. --- **Utilisation de simulateurs via Android Studio et Xcode** pour valider les fonctionnalités sur différentes configurations dans les environnements Android et iOS. --- **Tests unitaires** d\'API REST (Node.js) avec l’utilisation de **Postman et Ngrok**. --- Création de **données de tests** et validation des fonctionnalités.',
+            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End et Mobile.',
+            'Consultation et **analyse de données via MongoDB**, avec des notions essentielles de **NoSQL**.',
+            'Implication dans les rencontres quotidiennes afin d’assurer le **suivi des projets en cours**. ',
+            'Participation au code review, sessions de pair programming et rencontres d’équipe **dans un environnement Agile/Scrum**.',
           ],
         },
         features: {
@@ -387,7 +381,7 @@ export const resumeConfig: ResumeConfig = {
   // Uncomment below only if you need to override the auto-detection:
   pdf: {
     label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-    path: { en: '/cv/en/CV_Cyrielle_QAAnalyst_EN.pdf', fr: '/cv/fr/CyrielleC_QAAnalyste_FR.pdf' },
+    path: { en: '/cv/en/CyrielleC_QAAnalyst_EN.pdf', fr: '/cv/fr/CyrielleC_QAAnalyste_FR.pdf' },
   },
 
   // ===== THEME =====

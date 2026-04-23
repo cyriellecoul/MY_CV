@@ -33,11 +33,17 @@ export function MainContent() {
         <p className="text-base text-resume-text-secondary tracking-widest mt-2">
           {resolve(personal.title).toUpperCase()}
         </p>
-         <p className="text-sm text-resume-text-secondary tracking-widest mt-2 italic">
-          {resolve(personal.titleSpecialized)}
-        </p>
-        {personal.subtitle && (
-          <p className="text-xl text-resume-primary mt-2 font-bold">{resolve(personal.subtitle)}</p>
+
+        {personal.titleSpecialized && (
+          <p className="text-sm text-resume-text-secondary tracking-widest mt-2 italic">
+            {resolve(personal.titleSpecialized.titleSpecialized1)}
+            <strong>{resolve(personal.titleSpecialized.titleSpecialized2)}</strong>
+            {resolve(personal.titleSpecialized.titleSpecialized3)}
+            <strong>{resolve(personal.titleSpecialized.titleSpecialized4)}</strong>
+            {resolve(personal.titleSpecialized.titleSpecialized5)}
+            <strong>{resolve(personal.titleSpecialized.titleSpecialized6)}</strong>
+            {resolve(personal.titleSpecialized.titleSpecialized7)}
+          </p>
         )}
       </div>
 
