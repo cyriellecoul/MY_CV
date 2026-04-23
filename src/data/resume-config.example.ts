@@ -15,7 +15,7 @@ export const resumeConfig: ResumeConfig = {
     name: 'Cyrielle Coulais',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
-    photo: '/images/profile.png',
+    photo: '👨‍💻',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Quality Assurance Analyst (QA)',
@@ -381,7 +381,7 @@ export const resumeConfig: ResumeConfig = {
   // Uncomment below only if you need to override the auto-detection:
   pdf: {
     label: { en: 'Download PDF', fr: 'Télécharger le PDF' },
-    path: { en: '/cv/en/CyrielleC_QAAnalyst_EN.pdf', fr: '/cv/fr/CyrielleC_QAAnalyste_FR.pdf' },
+    path: { en: '/cv/en/CV_Cyrielle_EN.pdf', fr: '/cv/fr/CV_Cyrielle_FR.pdf' },
   },
 
   // ===== THEME =====
