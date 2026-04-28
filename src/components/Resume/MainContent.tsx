@@ -111,26 +111,7 @@ export function MainContent() {
       </div>
 
       {/* Projects */}
-      {projects && projects.length > 0 && labels.sections.projects && (
-        <div className="mt-8">
-          <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
-            {resolve(labels.sections.projects)}
-          </h2>
-          <div className="space-y-1">
-            {projects.map((project) => (
-              <ProjectItem
-                key={project.id}
-                title={resolve(project.title)}
-                description={resolve(project.description)}
-                techs={project.techs}
-                url={project.url}
-                googlePlay={project.googlePlay}
-                appleStore={project.appleStore}
-              />
-            ))}
-          </div>
-        </div>
-      )}
+
     </div>
   )
 }
