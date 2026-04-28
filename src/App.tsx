@@ -86,14 +86,7 @@ export default function App() {
           <Resume />
         </ThemeVarsInjector>
       </LanguageProvider>
-      {import.meta.env.DEV && (
-        <>
-          <DevPresetSelector />
-          <Suspense>
-            <Agentation />
-          </Suspense>
-        </>
-      )}
+  
     </ThemeProvider>
   )
 }

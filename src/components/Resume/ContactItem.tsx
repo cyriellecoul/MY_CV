@@ -60,7 +60,7 @@ export function ContactItem({ type, label, href }: ContactItemProps) {
         onClick={handleCopy}
         className="group flex items-center gap-3 text-sm text-resume-text-secondary hover:text-resume-primary transition-colors duration-200 cursor-pointer"
       >
-        <span className="relative w-4 h-4 group-hover:scale-115 transition-transform duration-200">
+            <span className="relative w-4 h-4 text-resume-primary group-hover:scale-115 transition-transform duration-200">
           <AnimatePresence mode="wait">
             {copied ? (
               <motion.span
