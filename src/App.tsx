@@ -62,17 +62,7 @@ function DevPresetSelector() {
 
   return (
     <div className="fixed top-4 left-4 z-50 hidden md:block">
-      <select
-        value={preset}
-        onChange={(e) => setPreset(e.target.value as PresetName)}
-        className="px-2 py-1 text-xs rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-sm cursor-pointer"
-      >
-        {presetNames.map((name) => (
-          <option key={name} value={name}>
-            {name}
-          </option>
-        ))}
-      </select>
+ 
     </div>
   )
 }
