@@ -18,12 +18,12 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/profile.png',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Software Developer',
-      fr: 'Développeuse de logiciels',
+      en: 'Front-End & Mobile Developer',
+      fr: 'Développeuse Front-End & Mobile',
     },
     titleSpecialized: {
-      en: 'Specialized in Front-End, Mobile et QA',
-      fr: 'Spécialisée en Front-End, Mobile et QA',
+      en: '',
+      fr: '',
     },
     subtitle: {
       en: '5 years of experience',
@@ -34,8 +34,8 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Cyrielle Coulais — Software Developer',
-    description: 'Interactive resume of Cyrielle Coulais, Software Developer.',
+    title: 'Cyrielle Coulais — Front-End & Mobile Developer',
+    description: 'Interactive resume of Cyrielle Coulais, Front-End & Mobile Developer.',
   },
 
   // ===== LANGUAGES =====
@@ -149,34 +149,34 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'company-a',
       company: { en: 'mPhase', fr: 'mPhase' },
-      role: { en: 'Software developer', fr: 'Développeuse logiciels' },
+      role: { en: 'Front-End & Mobile Developer', fr: 'Développeuse Front-End & Mobile' },
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
-      description: {
-        en: 'Development of a web platform and applications used by over 10,000 users.',
-        fr: 'Développement d\'une plateforme web et d\'applications utilisées par plus de 10 000 utilisateurs·rices.',
+       description: {
+        en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
+        fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Angular', 'JavaScript', 'Objective-C', 'Java', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Atlassian'],
+      techs: ['Angular', 'JavaScript', 'Java', 'Objective-C', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Jira', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse', 'Esprit d\'équipe' ],
       isHighlighted: true,
       details: {
-        context: {
-          en: 'Team of 10 developers within a 13-person company. Agile/Scrum framework using time-boxed sprints, CI/CD pipeline using GitHub Actions and Sentry, code review for each PR followed by QA.',
-          fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum basée sur des sprints avec une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, Code Review sur chaque PR suivi de QA.',
+         context: {
+          en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
+          fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\' une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
         tasks: {
           en: [
-            'Developed and implemented new features in Front-End and Mobile.',
-            'Analyzed and resolved bugs, ensuring tech product quality (QA).',
-            'Collaborated with back-end teams to integrate APIs REST (Node.js), conducting testing and debugging via Postman and Ngrok.',
-            'Data querying and analysis using MongoDB, with fundamental knowledge of NoSQL.',
-            'Collaborated on code reviews and pair programming sessions, contributing to team activities in an Agile setting.',
+            '**Developed and implemented** new features in Front-End and Mobile.',
+            '**Analyzed and resolved bugs**, ensuring tech product quality (QA).',
+            'Collaborated with back-end teams to **integrate APIs REST (Node.js)**, conducting testing and debugging via **Postman and Ngrok**.',
+            '**Data querying and analysis** using **MongoDB** with fundamental knowledge of **NoSQL**.',
+            'Collaborated on code reviews and pair programming sessions, contributing to team activities in **an Agile environment**.',
           ],
           fr: [
-            'Conception et implémentation de nouvelles fonctionnalités en Front-End et Mobile.',
-            'Analyse, résolution de bugs et contrôle qualité des produits numériques (QA).',
-            'Intégration d’APIs REST en lien avec les équipes back-end (NodeJS), tests et debugging via Postman et Ngrok.',
-            'Consultation et analyse de données via MongoDB, avec des notions essentielles de NoSQL.',
-            'Participation au code review, sessions de pair programming et rencontres d’équipe dans un environnement Agile.',
+            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End et Mobile.',
+            '**Analyse, résolution de bugs et contrôle qualité** des produits numériques (QA).',
+            '**Intégration d’APIs REST** en lien avec les équipes back-end (NodeJS), tests et debugging via **Postman et Ngrok**.',
+            'Consultation et **analyse de données** via **MongoDB**, avec des notions essentielles de **NoSQL**.',
+            'Participation au code review, sessions de pair programming et rencontres d’équipe dans **un environnement Agile**.',
           ],
         },
         features: {

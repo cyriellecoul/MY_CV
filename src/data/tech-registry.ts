@@ -152,7 +152,7 @@ const TECH_REGISTRY = {
   // ===== Testing =====
   'Jest': { color: '#C21325' },
   'Vitest': { color: '#6E9F18' },
-  'Jira': { color: '#69D3A7' },
+  'Jira': { color: '#412991' },
   'Confluence': { color: '#2596BE' },
   'Testing Library': { color: '#E33332' },
   'Bitbucket': { color: '#2EAD33' },
@@ -195,7 +195,10 @@ const TECH_REGISTRY = {
   'Gestion du temps': { color: '#00D4FF' },
   'Empathie et écoute active': { color: '#FF1493' },
   'Prise d\'initiatives': { color: '#FF0033' },
-  'Gestion du stress': {color :'#007396' }
+  'Gestion du stress': {color :'#007396' },
+  'Souci du détail': { color: '#FF4500' },
+  'Esprit d\'analyse': { color: '#1E90FF' },
+  'Esprit d\'équipe': { color: '#FF6A00' },
 
 } as const satisfies Record<string, { color: string }>
 
