@@ -47,7 +47,8 @@ export interface Experience {
     description: LocalizedString
   }
   details?: {
-    context: LocalizedString
+    context1: LocalizedString
+    context2?: LocalizedString
     tasks?: LocalizedStringArray
     features?: LocalizedStringArray
     subItem?: LocalizedStringArray

@@ -48,7 +48,7 @@ export const resumeConfig: ResumeConfig = {
       },
       titleSpecialized7: {
         en: 'in order to contribute to the reliability and performance of digital products.',
-        fr: 'afin de contribuer à la fiabilité et performance des produits numériques.',
+        fr: 'afin de contribuer à la fiabilité et à la performance des produits numériques.',
       },
 
     },
@@ -99,7 +99,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
         { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+        { name: { en: 'Automated testing using Selenium WebDriver/ServiceNow ATF', fr: 'Tests automatisés avec Selenium WebDriver/ServiceNow ATF' } },
         { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
         { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
       ]
@@ -152,27 +152,29 @@ export const resumeConfig: ResumeConfig = {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode'],
+      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse'],
       isHighlighted: true,
       details: {
-        context: {
-          en: 'Team of 10 developers within a 13-person company. Agile/Scrum framework using time-boxed sprints, CI/CD pipeline using GitHub Actions and Sentry, code review for each PR followed by QA.',
-          fr: 'Équipe de 10 développeur·euse·s au sein d\'une entreprise de 13 personnes. Méthodologie Agile/Scrum basée sur des sprints avec une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, Code Review sur chaque PR suivi de QA.',
+        context1: {
+          en: 'Quality assurance has always been one of my core strengths, as I proactively anticipate issues and ensure high-quality deliverables from the early stages of development.',
+          fr: 'Le QA a toujours été l’une de mes grandes forces car je m’efforce d’anticiper les problèmes et de garantir la qualité des livrables dès les premières phases du développement.',
+        },
+        context2: {
+          en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
+          fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\' une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
         tasks: {
           en: [
-            'Analysis, bug fixing, and quality assurance of digital products: --- Performed daily **regression testing** during branch checkouts. --- Executed **manual testing** on both complete and partial features. --- Used **simulators via Android Studio and Xcode** to validate features across various configurations in Android and iOS environments. --- Performed **unit testing** on REST APIs (Node.js) using **Postman** and **Ngrok**. --- Creation of **test data** and validation of functionalities.',
+            'Requirements analysis, defect management, documentation updates and quality assurance of digital products: --- Performed daily **regression testing** during branch checkouts. --- **Proactive identification of risks** and **recommendation of solutions** to ensure high-quality deliverables. --- Executed **manual and automated testing** on both complete and partial features. --- Used **simulators via Android Studio and Xcode** to validate features across various configurations in Android and iOS environments. --- Performed **unit testing** on REST APIs (Node.js) using **Postman** and **Ngrok**. --- Creation of **test data** and validation of functionalities.',
             '**Developed and implemented** new features in Front-End and Mobile.',
             'Data querying and **analysis using MongoDB**, with fundamental knowledge of **NoSQL**.',
             'Involvement in daily meetings to **ensure proper tracking of ongoing projects**.',
-            'Collaborated on code reviews and pair programming sessions, and team meetings within an **Agile/Scrum environment**.',
           ],
           fr: [
-            'Analyse, résolution des anomalies et assurance qualité des produits numériques : --- Réalisation de **tests de régression** quotidiens lors du checkout des branches. --- Exécution de **tests manuels** sur des fonctionnalités complètes et partielles. --- **Utilisation de simulateurs via Android Studio et Xcode** pour valider les fonctionnalités sur différentes configurations dans les environnements Android et iOS. --- **Tests unitaires** d\'API REST (Node.js) avec l’utilisation de **Postman et Ngrok**. --- Création de **données de tests** et validation des fonctionnalités.',
+            'Analyse des besoins, gestion des anomalies, mise à jour de la documentation et assurance de la qualité des produits numériques : --- Identification et réalisation **des cas de tests de régression** quotidiens lors du checkout des branches. --- **Détection des risques** en amont et **proposition de solutions** pour assurer la qualité des produits livrés. --- Exécution de **tests manuels et automatisés** sur des fonctionnalités complètes et partielles. --- **Utilisation de simulateurs via Android Studio et Xcode** pour valider les fonctionnalités sur différentes configurations dans les environnements Android et iOS. --- **Tests unitaires** d\'API REST (Node.js) avec l’utilisation de **Postman et Ngrok**. --- Création de **données de tests** et validation des fonctionnalités.',
             '**Conception et implémentation** de nouvelles fonctionnalités en Front-End et Mobile.',
             'Consultation et **analyse de données via MongoDB**, avec des notions essentielles de **NoSQL**.',
             'Implication dans les rencontres quotidiennes afin d’assurer le **suivi des projets en cours**. ',
-            'Participation au code review, sessions de pair programming et rencontres d’équipe **dans un environnement Agile/Scrum**.',
           ],
         },
         features: {
@@ -211,7 +213,7 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['Travail d\'équipe', 'Adaptabilité / Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
       details: {
-        context: {
+        context1: {
           en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
           fr: 'Leader de l’autopartage au Canada avec plus de 4500 véhicules en libre-service dans 6 villes.',
         },
@@ -255,7 +257,7 @@ export const resumeConfig: ResumeConfig = {
       },
       techs: ['Empathie et écoute active', 'Service à la clientèle', 'Prise d\'initiatives', 'Autonomie', 'Gestion du temps', 'Travail d\'équipe', 'Gestion du stress'],
       details: {
-        context: {
+        context1: {
           en: 'Human-scale, community-oriented pharmacy.',
           fr: 'Pharmacie de proximité à taille humaine.',
         },
@@ -329,9 +331,9 @@ export const resumeConfig: ResumeConfig = {
   education: [
     {
       school: { en: 'Udemy', fr: 'Udemy' },
-      degree: { en: 'Selenium Webdriver - Udemy Certificate', fr: 'Selenium Webdriver - Certificat Udemy' },
+      degree: { en: 'Selenium Webdriver & ServiceNow ATF - Udemy Certificate', fr: 'Selenium Webdriver & ServiceNow ATF - Certificat Udemy' },
       city: { en: 'Online', fr: 'En ligne' },
-      period: '02/2026 - 03/2026',
+      period: '03/2026 - 05/2026',
     },
     {
       school: { en: 'Intern training', fr: 'Formation interne' },

@@ -147,7 +147,7 @@ export function Sidebar() {
                 </div>
               )}
               {category.type === 'bullets' && (
-                <div className="text-sm text-resume-text-secondary">
+                <div className="text-ml text-resume-text-secondary">
                   {category.items.map((item, index) => (
                     <span key={index}>
                       • {typeof item.name === 'string' ? item.name : resolve(item.name)}

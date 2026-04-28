@@ -67,7 +67,8 @@ export function MainContent() {
               details={
                 exp.details
                   ? {
-                    context: resolve(exp.details.context),
+                    context1: resolve(exp.details.context1),
+                    context2: exp.details.context2 ? resolve(exp.details.context2) : '',
                     tasks: exp.details.tasks ? resolveArray(exp.details.tasks) : undefined,
                     features: exp.details.features ? resolveArray(exp.details.features) : undefined,
                     training: exp.details.training ? resolveArray(exp.details.training) : undefined,

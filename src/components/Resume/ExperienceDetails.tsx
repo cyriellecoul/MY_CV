@@ -1,7 +1,8 @@
 import { TechBadge } from './TechBadge'
 
 interface ExperienceDetailsContentProps {
-  context: string
+  context1: string
+  context2?: string
   tasks?: string[]
   features?: string[]
   training?: string[]
@@ -20,7 +21,8 @@ interface ExperienceDetailsContentProps {
 }
 
 export function ExperienceDetailsContent({
-  context,
+  context1,
+  context2, 
   tasks,
   features,
   training,
@@ -48,8 +50,12 @@ export function ExperienceDetailsContent({
       )}
 
       <p className="text-sm text-resume-text-secondary italic border-l-2 border-resume-primary/30 pl-3">
-        {context}
+        {context1}
       </p>
+      <p className="text-sm text-resume-text-secondary italic border-l-2 border-resume-primary/30 pl-3">
+        {context2 ? context2 : ''}
+      </p>
+
 
       {variant === 'modal' && techs && techs.length > 0 && (
         <div>

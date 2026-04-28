@@ -17,7 +17,8 @@ interface ExperienceItemProps {
   expanded: boolean
   onToggle: () => void
   details?: {
-    context: string
+    context1: string
+    context2?: string
     tasks?: string[]
     features?: string[]
     training?: string[]
@@ -132,7 +133,8 @@ export function ExperienceItem({
             >
               <div className="ml-0 mt-2 mb-4 p-4 bg-resume-bg rounded-lg border border-resume-primary/20">
                 <ExperienceDetailsContent
-                  context={details.context}
+                  context1={details.context1}
+                  context2={details.context2}
                   tasks={details.tasks}
                   features={details.features}
                   training={details.training}
@@ -159,7 +161,8 @@ export function ExperienceItem({
           }
         >
           <ExperienceDetailsContent
-            context={details.context}
+            context1={details.context1}
+            context2={details.context2}
             tasks={details.tasks}
             training={details.training}
             env={details.env}

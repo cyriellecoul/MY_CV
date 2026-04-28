@@ -194,7 +194,9 @@ const TECH_REGISTRY = {
   'Gestion du temps': { color: '#00D4FF' },
   'Empathie et écoute active': { color: '#FF1493' },
   'Prise d\'initiatives': { color: '#FF0033' },
-  'Gestion du stress': {color :'#007396' }
+  'Gestion du stress': {color :'#007396' },
+  'Souci du détail': { color: '#FF6A00' },
+  'Esprit d\'analyse': { color: '#A6FF00' },
 
 } as const satisfies Record<string, { color: string }>
 
