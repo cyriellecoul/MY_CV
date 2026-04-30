@@ -99,7 +99,7 @@ export const resumeConfig: ResumeConfig = {
       items: [
         { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
         { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-        { name: { en: 'Automated testing using Selenium WebDriver/ServiceNow ATF', fr: 'Tests automatisés avec Selenium WebDriver/ServiceNow ATF' } },
+        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
         { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
         { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
       ]
@@ -331,7 +331,7 @@ export const resumeConfig: ResumeConfig = {
   education: [
     {
       school: { en: 'Udemy', fr: 'Udemy' },
-      degree: { en: 'Selenium Webdriver & ServiceNow ATF - Udemy Certificate', fr: 'Selenium Webdriver & ServiceNow ATF - Certificat Udemy' },
+      degree: { en: 'Selenium Webdriver - Udemy Certificate', fr: 'Selenium Webdriver - Certificat Udemy' },
       city: { en: 'Online', fr: 'En ligne' },
       period: '03/2026 - 05/2026',
     },
