@@ -92,7 +92,7 @@ export function ExperienceItem({
                 animate={{ rotate: expanded ? 180 : 0 }}
                 className="absolute top-0 right-0"
               >
-                <ChevronDownIcon className="w-4 h-4 text-resume-text-pink" />
+             
               </motion.div>
             )}
             <div className="flex items-center gap-2 flex-wrap pr-6 md:pr-0">

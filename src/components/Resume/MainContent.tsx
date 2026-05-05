@@ -8,7 +8,9 @@ import { EducationItem } from './EducationItem'
 export function MainContent() {
   const { resolve, resolveArray } = useTranslation()
   const { personal, experiences, projects, education, labels } = resumeConfig
-  const [expandedExp, setExpandedExp] = useState<string | null>(null)
+const [expandedExp, setExpandedExp] = useState<string | null>(
+  experiences[0]?.id ?? null
+);
 
   const toggleExp = (id: string) => {
     setExpandedExp(expandedExp === id ? null : id)
@@ -30,19 +32,16 @@ export function MainContent() {
         <h1 className="text-3xl md:text-4xl font-bold tracking-[0.15em] text-resume-text">
           {personal.name.toUpperCase()}
         </h1>
-        <p className="text-base text-resume-text-secondary tracking-widest mt-2">
+        <p className="text-ml text-resume-text-secondary tracking-widest mt-2">
           {resolve(personal.title).toUpperCase()}
+        </p>
+     <p className="text-sm text-resume-text-secondary tracking-widest mt-2 italic">
+          {resolve(personal.title1).toUpperCase()}
         </p>
 
         {personal.titleSpecialized && (
-          <p className="text-sm text-resume-text-secondary tracking-widest mt-2 italic">
-            {resolve(personal.titleSpecialized.titleSpecialized1)}
+          <p className="text-xl text-resume-text-secondary tracking-widest mt-2 italic">
             <strong>{resolve(personal.titleSpecialized.titleSpecialized2)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized3)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized4)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized5)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized6)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized7)}
           </p>
         )}
       </div>
@@ -92,7 +91,7 @@ export function MainContent() {
       </div>
 
       {/* Education */}
-      <div className="mt-8">
+      <div className="mt-2">
         <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
           {resolve(labels.sections.education)}
         </h2>
@@ -111,26 +110,7 @@ export function MainContent() {
       </div>
 
       {/* Projects */}
-      {projects && projects.length > 0 && labels.sections.projects && (
-        <div className="mt-8">
-          <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
-            {resolve(labels.sections.projects)}
-          </h2>
-          <div className="space-y-1">
-            {projects.map((project) => (
-              <ProjectItem
-                key={project.id}
-                title={resolve(project.title)}
-                description={resolve(project.description)}
-                techs={project.techs}
-                url={project.url}
-                googlePlay={project.googlePlay}
-                appleStore={project.appleStore}
-              />
-            ))}
-          </div>
-        </div>
-      )}
+
     </div>
   )
 }

@@ -154,6 +154,7 @@ export interface ResumeConfig {
     photo?: string
     photoBackEmoji?: string
     title: LocalizedString
+      title1: LocalizedString
     titleSpecialized: TitleSpecialized
     subtitle?: LocalizedString
     location?: string

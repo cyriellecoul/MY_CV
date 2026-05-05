@@ -15,11 +15,16 @@ export const resumeConfig: ResumeConfig = {
     name: 'Cyrielle Coulais',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
-    photo: '/images/profile.png',
+    photo: '👩‍💻',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Quality Assurance Analyst (QA)',
-      fr: 'Analyste en assurance qualité (QA)',
+      fr: 'Consultante TI',
+    },
+
+    title1: {
+      en: 'Quality Assurance Analyst (QA)',
+      fr: 'développement d’affaires & recrutement',
     },
     titleSpecialized: {
       titleSpecialized1: {
@@ -28,7 +33,7 @@ export const resumeConfig: ResumeConfig = {
       },
       titleSpecialized2: {
         en: ' 5 years of experience',
-        fr: ' 5 années d’expérience',
+        fr: ' 5 années d’expérience en TI',
       },
       titleSpecialized3: {
         en: ' as a ',
@@ -78,7 +83,7 @@ export const resumeConfig: ResumeConfig = {
 
     { type: 'portfolio', label: 'Portfolio', href: 'https://cyriellecoul.github.io/devPortfolio/' },
     { type: 'linkedin', label: 'Cyrielle C', href: 'https://www.linkedin.com/in/cyrielle-c/' },
-    { type: 'github', label: 'cyriellecoul', href: 'https://github.com/cyriellecoul' },
+
     { type: 'location', label: 'Montréal, Québec' },
 
   ],
@@ -93,17 +98,7 @@ export const resumeConfig: ResumeConfig = {
         { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' } },
       ],
     },
-    {
-      title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
-      type: 'bullets',
-      items: [
-        { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
-        { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
-        { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
-        { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
-      ]
-    },
+
     {
       title: { en: 'Tools & Tech Stack', fr: 'Outils & Tech Stack' },
       type: 'badges',
@@ -115,7 +110,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Node.js' },
         { name: 'JavaScript' },
         { name: 'MongoDB' },
-        { name: 'NoSQL' },
+        { name: 'SQL' },
         { name: 'Bitbucket' },
         { name: 'QA' },
         { name: 'Confluence' },
@@ -124,7 +119,7 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Pull Requests' },
         { name: 'SourceTree' },
         { name: 'Docker' },
-       { name: 'GitHub' },
+        { name: 'GitHub' },
         { name: 'Objective-C' },
         { name: 'HTML' },
         { name: 'CSS' },
@@ -152,47 +147,60 @@ export const resumeConfig: ResumeConfig = {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse'],
+      techs: ['Analyse des besoins TI', 'Résolution de problèmes', 'Communication avec les parties prenantes','Agile/Scrum',  'Cycle de vie du développement logiciel (SDLC)',
+        
+        'Jira',
+        'Confluence',
+        'Postman',
+        'REST APIs',
+        'Git',
+        'MongoDB',
+        'SQL',
+        'Intégration de systèmes',
+        'JavaScript',
+        'Node.js',
+        'Angular',
+        'Android Studio',
+        'Xcode',
+        'Souci du détail',
+        ],
       isHighlighted: true,
       details: {
         context1: {
           en: 'Quality assurance has always been one of my core strengths, as I proactively anticipate issues and ensure high-quality deliverables from the early stages of development.',
-          fr: 'Le QA a toujours été l’une de mes grandes forces car je m’efforce d’anticiper les problèmes et de garantir la qualité des livrables dès les premières phases du développement.',
+          fr: 'J’accorde une grande importance à la communication et à la collaboration, en assurant un échange fluide et constant avec les différentes parties prenantes afin de bien comprendre les besoins, faciliter la prise de décision et contribuer à la réussite des projets dans un environnement technique.',
         },
-        context2: {
-          en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
-          fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\' une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
-        },
+
         tasks: {
           en: [
-            'Requirements analysis, defect management, documentation updates and quality assurance of digital products: --- Performed daily **regression testing** during branch checkouts. --- **Proactive identification of risks** and **recommendation of solutions** to ensure high-quality deliverables. --- Executed **manual and automated testing** on both complete and partial features. --- Used **simulators via Android Studio and Xcode** to validate features across various configurations in Android and iOS environments. --- Performed **unit testing** on REST APIs (Node.js) using **Postman** and **Ngrok**. --- Creation of **test data** and validation of functionalities.',
-            '**Developed and implemented** new features in Front-End and Mobile.',
-            'Data querying and **analysis using MongoDB**, with fundamental knowledge of **NoSQL**.',
-            'Involvement in daily meetings to **ensure proper tracking of ongoing projects**.',
+            '**Analyzed business and technical requirements** to understand client needs in IT environments and translate them into actionable solutions.',
+            '**Collaborated with cross-functional technical teams** (developers, QA, product stakeholders) to ensure alignment between business objectives and technical delivery.',
+            '**Participated in Agile/Scrum environments**, contributing to iterative delivery and continuous improvement of digital products.',
+            '**Supported client-oriented discussions around technical solutions**, including APIs (REST), system integrations, and data workflows.',
+            '**Leveraged strong analytical skills to understand complex technical systems** (web, mobile, backend) and communicate them in a clear and structured way.',
+            '**Worked closely with development teams (Front-End, Back-End, Mobile)** to identify needs, constraints, and delivery priorities.',
+            '**Contributed to bug analysis and product quality discussions**, ensuring better understanding of technical issues and user impact.',
+            '**Used tools such as Jira, Git, Postman and MongoDB** to follow development progress, validate functionalities, and support delivery tracking.',
+            '**Demonstrated strong problem-solving and communication skills** in collaborative and fast-paced environments.',
           ],
           fr: [
-            'Analyse des besoins, gestion des anomalies, mise à jour de la documentation et assurance de la qualité des produits numériques : --- Identification et réalisation **des cas de tests de régression** quotidiens lors du checkout des branches. --- **Détection des risques** en amont et **proposition de solutions** pour assurer la qualité des produits livrés. --- Exécution de **tests manuels et automatisés** sur des fonctionnalités complètes et partielles. --- **Utilisation de simulateurs via Android Studio et Xcode** pour valider les fonctionnalités sur différentes configurations dans les environnements Android et iOS. --- **Tests unitaires** d\'API REST (Node.js) avec l’utilisation de **Postman et Ngrok**. --- Création de **données de tests** et validation des fonctionnalités.',
-            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End et Mobile.',
-            'Consultation et **analyse de données via MongoDB**, avec des notions essentielles de **NoSQL**.',
-            'Implication dans les rencontres quotidiennes afin d’assurer le **suivi des projets en cours**. ',
+            '**Analyse des besoins techniques et d’affaires** afin de comprendre les enjeux clients et les traduire en solutions concrètes.',
+            '**Collaboration avec des équipes techniques multidisciplinaires** (développeurs, QA, parties prenantes produit) pour assurer l’alignement entre besoins d’affaires et livraison technique.',
+            '**Participation à des environnements Agile/Scrum**, contribuant à des livraisons itératives et à l’amélioration continue des produits numériques.',
+            '**Contribution aux échanges techniques orientés client**, incluant les API REST, intégrations systèmes et flux de données.',
+            '**Utilisation d’un fort esprit analytique pour comprendre des systèmes techniques complexes** (web, mobile, backend) et les vulgariser clairement.',
+            '**Collaboration étroite avec les équipes de développement (Front-End, Back-End, Mobile)** pour comprendre les besoins et priorités de livraison.',
+            '**Contribution à l’analyse de bugs et à la qualité produit**, facilitant la compréhension des impacts techniques et utilisateurs.',
+            '**Utilisation d’outils tels que Jira, Git, Postman et MongoDB** pour suivre les développements et valider les fonctionnalités.',
+            '**Fortes capacités en résolution de problèmes et communication** dans des environnements collaboratifs et dynamiques.',
           ],
         },
         features: {
           en: [
-            'Internal communication module',
-            'Internal forms (disciplinary and technical forms)',
-            'Automatic vehicle departures and arrivals based on speed and location',
-            'Overview of upcoming routes for drivers',
-            'Improvements to mobile app UI and UX',
-            'Display of recent changes to routes, etc...',
+
           ],
           fr: [
-            'Module de communication interne',
-            'Formulaires internes (Formulaire disciplinaire et technique)',
-            'Départs et arrivées automatiques des véhicules en fonction de leur vitesse et de leur localisation',
-            'Aperçu des trajets futurs pour les conducteurs·rices',
-            'Améliorations du UI et UX de l’application mobile',
-            'Affichage des modifications récentes sur les itinéraires, etc...',
+
           ],
         },
         env: {
@@ -364,7 +372,7 @@ export const resumeConfig: ResumeConfig = {
       ],
     }, {
       title: { en: 'Arts', fr: 'Arts' }, details: [
-        { en: 'In all its forms: exhibitions, museums, circus, music, theater, drag, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, drag, etc.)' },
+        { en: 'In all its forms: exhibitions, museums, circus, music, theater, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, etc.)' },
       ],
     },
     {
@@ -410,7 +418,7 @@ export const resumeConfig: ResumeConfig = {
       technologies: { en: 'Technologies', fr: 'Technologies' },
     },
     actions: {
-      clickHint: { en: 'Click on experiences to see more details', fr: 'Cliquez sur les expériences pour voir plus de détails' },
+      clickHint: { en: '', fr: '' },
       switchTheme: { en: 'Toggle dark mode', fr: 'Changer le thème' },
       downloadPdf: { en: 'Download PDF', fr: 'Télécharger le PDF' },
     },
