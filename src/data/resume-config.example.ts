@@ -108,33 +108,48 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Tools & Tech Stack', fr: 'Outils & Tech Stack' },
       type: 'badges',
       items: [
+        // QA / Test management (priorité maximale)
         { name: 'Jira' },
-        { name: 'Git' },
-        { name: 'Postman' },
-        { name: 'Java' },
-        { name: 'Node.js' },
-        { name: 'JavaScript' },
-        { name: 'MongoDB' },
-        { name: 'NoSQL' },
-        { name: 'Bitbucket' },
         { name: 'Confluence' },
         { name: 'Agile/Scrum' },
         { name: 'Code Review' },
         { name: 'Pull Requests' },
-        { name: 'SourceTree' },
-        { name: 'Docker' },
+
+        // API / Testing tools
+        { name: 'Postman' },
+        { name: 'REST APIs' },
+        { name: 'Selenium' },
+        { name: 'Ngrok' },
+
+        // Version control / collaboration
+        { name: 'Git' },
         { name: 'GitHub' },
-        { name: 'Objective-C' },
+        { name: 'Bitbucket' },
+        { name: 'SourceTree' },
+
+        // Data / DB (important QA backend)
+        { name: 'SQL' },
+        { name: 'MongoDB' },
+
+        // DevOps / infra (QA support)
+        { name: 'Docker' },
+
+        // Programming languages (support QA automation / scripting)
+        { name: 'Java' },
+        { name: 'JavaScript' },
+        { name: 'Node.js' },
+
+        // Front / mobile testing context
+        { name: 'Angular' },
+        { name: 'React' },
+        { name: 'React Native' },
         { name: 'HTML' },
         { name: 'CSS' },
-        { name: 'React' },
-        { name: 'Angular' },
-        { name: 'React Native' },
+
+        // Mobile testing environments
         { name: 'Android Studio' },
         { name: 'Xcode' },
-        { name: 'REST APIs' },
-        { name: 'Ngrok' },
-        { name: 'Selenium' },
+        { name: 'Objective-C' }
       ],
     },
   ],
@@ -151,7 +166,31 @@ export const resumeConfig: ResumeConfig = {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse'],
+      techs: [
+        'Tests logiciels',
+        'Conception de cas de test',
+        'Plans de test',
+        'Tests de régression',
+        'Tests manuels',
+        'Automatisation QA',
+        'Jira',
+        'Suivi et gestion des anomalies',
+        'Git',
+        'REST APIs',
+        'Postman',
+        'MongoDB',
+        'SQL',
+        'Agile/Scrum',
+        'JavaScript',
+        'Node.js',
+        'Java',
+        'Angular',
+        'Android Studio',
+        'Xcode',
+        'Souci du détail',
+        'Esprit analytique',
+        'Résolution de problèmes'
+      ],
       isHighlighted: true,
       details: {
         context1: {
@@ -164,24 +203,28 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            '**Requirements analysis** and design of **test cases (functional, regression)**.',
-            'Execution of **manual and automated testing** with deliverables validation.',
-            '**Defect management** (identification, documentation, tracking, and diagnosis).',
-            '**Regression testing** and **proactive risk identification**.',
-            'Validation of **REST APIs with Postman** and creation of **test data via MongoDB**.',
-            '**Cross-platform testing** (Android Studio, Xcode).',
-            '**Agile collaboration** with teams (dev, PO, SM) and continuous improvement.',
-            'Design and **Front-End/Mobile development** with involvement in requirements analysis.'
+            '**Gathered and analyzed requirements** to design comprehensive **test plans and test cases** aligned with specifications.',
+            '**Participated in the development and execution of test plans**, ensuring adequate **test coverage** and product quality.',
+            '**Executed manual tests** and validated deliverables across multiple platforms (Android, iOS, Web).',
+            '**Monitored test execution**, identifying, documenting, and tracking defects using **Jira**.',
+            '**Diagnosed and resolved anomalies**, performing root cause analysis and ensuring proper follow-up.',
+            '**Created and managed test data** for both manual and API testing scenarios.',
+            'Validated **REST APIs** using **Postman** and **Ngrok**, including functional and integration testing.',
+            '**Identified opportunities for test automation** and contributed to continuous QA improvement initiatives.',
+            'Collaborated with **cross-functional teams** to ensure alignment on quality standards and delivery timelines.',
+            '**Reported defects and ensured traceability** throughout the testing lifecycle.',
           ],
           fr: [
-            '**Analyse des besoins** et conception de **cas de test (fonctionnels, régression)**.',
-            'Exécution de **tests manuels et automatisés** avec validation des livrables.',
-            '**Gestion des anomalies** (détection, documentation, suivi et diagnostic).',
-            '**Tests de régression** et **identification proactive des risques**.',
-            'Validation d’**API REST avec Postman** et création de **données de test via MongoDB**.',
-            '**Tests multi-plateformes** (Android Studio, Xcode).',
-            '**Collaboration Agile** avec équipes (dev, PO, SM) et amélioration continue.',
-            'Conception et **développement Front-End/Mobile** avec participation à l’analyse des besoins.'
+            '**Recueil et analyse des besoins** afin de concevoir des **plans de test et cas de test** conformes aux spécifications.',
+            '**Participation à l’élaboration et à l’exécution des plans de test**, en assurant une **couverture de test adéquate** et la qualité des livrables.',
+            '**Exécution de tests manuels** et validation des livrables sur différentes plateformes (Android, iOS, Web).',
+            '**Suivi du déroulement des tests**, avec détection, documentation et gestion des anomalies via **Jira**.',
+            '**Diagnostic et correction des anomalies**, incluant l’analyse des causes et le suivi des résolutions.',
+            '**Création et gestion de jeux de données de test** pour les tests manuels et les tests d’API.',
+            'Validation d’**APIs REST** avec **Postman** et **Ngrok**, incluant des tests fonctionnels et d’intégration.',
+            '**Identification des opportunités d’automatisation des tests** et contribution à l’amélioration continue des pratiques QA.',
+            'Collaboration avec des **équipes multidisciplinaires** afin d’assurer la qualité et le respect des échéanciers.',
+            '**Rapport des anomalies et traçabilité** tout au long du cycle de test.',
           ],
         },
         features: {
