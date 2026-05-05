@@ -91,11 +91,11 @@ export function ExperienceItem({
                 animate={{ rotate: expanded ? 180 : 0 }}
                 className="absolute top-0 right-0"
               >
-                <ChevronDownIcon className="w-4 h-4 text-resume-text-pink" />
+                
               </motion.div>
             )}
             <div className="flex items-center gap-2 flex-wrap pr-6 md:pr-0">
-              <h3 className="text-xs font-semibold text-resume-text">{company}</h3>
+              <h3 className="text-ml font-semibold text-resume-text">{company}</h3>
               {type && (
                 <span className="text-xs px-2 py-0.5 bg-resume-primary/10 text-resume-primary rounded">
                   {type}

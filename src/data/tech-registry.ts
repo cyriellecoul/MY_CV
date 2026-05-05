@@ -186,8 +186,8 @@ const TECH_REGISTRY = {
 
   // ===== Soft Skills =====
   'Travail d\'équipe': { color: '#FF6A00' },
-  'Adaptabilité / Flexibilité ': { color: '#A6FF00' },
-  'Suivi de projets': { color: '#00E676' },
+  'Adaptabilité / Flexibilité ': { color: '#0769AD' },
+  'Suivi de projets': { color: '#F03E2F' },
   'Autonomie': { color: '#DC322F' },
   'Service à la clientèle': { color: '#0066FF' },
   'Rigueur': { color: '#7B00FF' },

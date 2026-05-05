@@ -165,15 +165,15 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            '**Developed and implemented** new features in Front-End and Mobile.',
-            '**Analyzed and resolved bugs**, ensuring tech product quality (QA).',
+            '**Developed and implemented** new features in Front-End (**Angular** and **JavaScript**) and Mobile (native: **Java** and **Objective-C**, cross-platform: **React Native**).',
+            '**Analyzed and resolved bugs**, ensuring tech product quality.',
             'Collaborated with back-end teams to **integrate APIs REST (Node.js)**, conducting testing and debugging via **Postman and Ngrok**.',
             '**Data querying and analysis** using **MongoDB** with fundamental knowledge of **NoSQL**.',
             'Collaborated on code reviews and pair programming sessions, contributing to team activities in **an Agile environment**.',
           ],
           fr: [
-            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End et Mobile.',
-            '**Analyse, résolution de bugs et contrôle qualité** des produits numériques (QA).',
+            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End (**Angular** et **JavaScript**) et Mobile (natif: **Java** et **Objective-C**, multiplateforme: **React Native**).',
+            '**Analyse, résolution de bugs et contrôle qualité** des produits numériques.',
             '**Intégration d’APIs REST** en lien avec les équipes back-end (NodeJS), tests et debugging via **Postman et Ngrok**.',
             'Consultation et **analyse de données** via **MongoDB**, avec des notions essentielles de **NoSQL**.',
             'Participation au code review, sessions de pair programming et rencontres d’équipe dans **un environnement Agile**.',
@@ -247,48 +247,7 @@ export const resumeConfig: ResumeConfig = {
         },
       },
     },
-    {
-      id: 'company-c',
-      company: { en: 'Familiprix - L.Dufour et S. Lamoureux', fr: 'Familiprix - L.Dufour et S. Lamoureux' },
-      role: { en: 'Delivery and Pharmacy Technician', fr: 'Livreuse et technicienne en pharmacie' },
-      type: { en: 'Montréal', fr: 'Montréal' },
-      period: { en: '06/2015 - 01/2018', fr: '06/2015 - 01/2018' },
-      description: {
-        en: 'Handled deliveries of medications and other items, ensuring a high standard of customer service with every client interaction.',
-        fr: 'Effectuer les livraisons de médicaments et autres produits et assurer un service à la clientèle de qualité lors des interactions avec les clients.',
-      },
-      techs: ['Empathie et écoute active', 'Service à la clientèle', 'Prise d\'initiatives', 'Autonomie', 'Gestion du temps', 'Travail d\'équipe', 'Gestion du stress'],
-      details: {
-        context: {
-          en: 'Human-scale, community-oriented pharmacy.',
-          fr: 'Pharmacie de proximité à taille humaine.',
-        },
-        tasks: {
-          en: [
-            'Prepare delivery bags and ensure their accuracy by asking verification questions.',
-            'Optimized delivery routes according to urgency.',
-            'Build strong relationships with clients to maintain high-quality service.',
-            'Communicated regularly with the team to guarantee seamless operations',
-          ],
-          fr: [
-            'Préparer les sacs de livraison et s\'assurer de leur exactitude et en posant des questions.',
-            'Optimiser les itinéraires en fonction des urgences.',
-            'Établir une relation de proximité avec les clients afin de maintenir un service de qualité.',
-            'Assurer une communication régulière avec l\'équipe pour le bon déroulement des opérations.',
-          ],
-        },
-        training: {
-          en: [
-          ],
-          fr: [
-          ],
-        },
-        env: {
-          en: '',
-          fr: '',
-        },
-      },
-    },
+
   ],
 
   // ===== PROJECTS (optional) =====
