@@ -152,31 +152,37 @@ export const resumeConfig: ResumeConfig = {
       role: { en: 'Front-End & Mobile Developer', fr: 'Développeuse Front-End & Mobile' },
       type: { en: 'Montréal', fr: 'Montréal' },
       period: { en: '02/2021 - 10/2025', fr: '02/2021 - 10/2025' },
-       description: {
+      description: {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Angular', 'JavaScript', 'Java', 'Objective-C', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Jira', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse', 'Esprit d\'équipe' ],
+      techs: ['Angular', 'JavaScript', 'Java', 'Objective-C', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Jira', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse', 'Esprit d\'équipe'],
       isHighlighted: true,
       details: {
-         context: {
+        context: {
           en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
           fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\' une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
         tasks: {
           en: [
-            '**Developed and implemented** new features in Front-End (**Angular** and **JavaScript**) and Mobile (native: **Java** and **Objective-C**, cross-platform: **React Native**).',
-            '**Analyzed and resolved bugs**, ensuring tech product quality.',
-            'Collaborated with back-end teams to **integrate APIs REST (Node.js)**, conducting testing and debugging via **Postman and Ngrok**.',
-            '**Data querying and analysis** using **MongoDB** with fundamental knowledge of **NoSQL**.',
-            'Collaborated on code reviews and pair programming sessions, contributing to team activities in **an Agile environment**.',
+            '**Developed and implemented** new features in Front-End (**Angular**, **JavaScript**, **TypeScript**) and Mobile (native: **Java** and **Objective-C**, cross-platform: **React Native**).',
+            '**Contributed to the full development lifecycle**, including coding, **unit testing**, integration, and **CI/CD pipelines (GitHub Actions)**.',
+            'Collaborated with back-end teams to **integrate REST APIs (Node.js)**, conducting testing and debugging via **Postman and Ngrok**.',
+            '**Analyzed, diagnosed, and resolved bugs**, ensuring application performance and product quality.',
+            '**Queried and analyzed data** using **MongoDB**, with solid understanding of **NoSQL** concepts.',
+            'Experience with **cloud-based data storage solutions (Firebase)** for real-time data management, with transferable concepts to platforms such as Azure Data Storage.',
+            'Actively participated in **code reviews, pair programming**, and team ceremonies within an **Agile/Scrum environment**.',
+            '**Contributed to technical documentation** and knowledge sharing within the team.',
           ],
           fr: [
-            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End (**Angular** et **JavaScript**) et Mobile (natif: **Java** et **Objective-C**, multiplateforme: **React Native**).',
-            '**Analyse, résolution de bugs et contrôle qualité** des produits numériques.',
-            '**Intégration d’APIs REST** en lien avec les équipes back-end (NodeJS), tests et debugging via **Postman et Ngrok**.',
-            'Consultation et **analyse de données** via **MongoDB**, avec des notions essentielles de **NoSQL**.',
-            'Participation au code review, sessions de pair programming et rencontres d’équipe dans **un environnement Agile**.',
+            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End (**Angular**, **JavaScript**, **TypeScript**) et Mobile (natif: **Java** et **Objective-C**, multiplateforme: **React Native**).',
+            '**Participation au cycle complet de développement**, incluant le codage, les **tests unitaires**, l’intégration et les pipelines **CI/CD (GitHub Actions)**.',
+            '**Intégration d’APIs REST** en collaboration avec les équipes back-end (**Node.js**), avec tests et debugging via **Postman et Ngrok**.',
+            '**Analyse, diagnostic et résolution de bugs**, assurant la performance des applications et la qualité des produits.',
+            '**Consultation et analyse de données** via **MongoDB**, avec une bonne maîtrise des concepts **NoSQL**.',
+            'Expérience avec des **solutions de stockage de données infonuagiques (Firebase)** pour la gestion de données en temps réel, avec des concepts transférables vers des plateformes comme Azure Data Storage.',
+            'Participation active aux **revues de code, pair programming** et aux cérémonies d’équipe dans un environnement **Agile/Scrum**.',
+            '**Contribution à la documentation technique** et au partage des connaissances au sein de l’équipe.',
           ],
         },
         features: {
