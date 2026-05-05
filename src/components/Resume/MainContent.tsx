@@ -35,14 +35,8 @@ export function MainContent() {
         </p>
 
         {personal.titleSpecialized && (
-          <p className="text-sm text-resume-text-secondary tracking-widest mt-2 italic">
-            {resolve(personal.titleSpecialized.titleSpecialized1)}
+          <p className="text-xl text-resume-text-secondary tracking-widest mt-2 italic">
             <strong>{resolve(personal.titleSpecialized.titleSpecialized2)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized3)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized4)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized5)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized6)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized7)}
           </p>
         )}
       </div>
@@ -62,7 +56,7 @@ export function MainContent() {
               role={resolve(exp.role)}
               description={resolve(exp.description)}
               techs={exp.techs}
-              expanded={expandedExp === exp.id}
+              expanded={true}
               onToggle={() => toggleExp(exp.id)}
               details={
                 exp.details
@@ -92,7 +86,7 @@ export function MainContent() {
       </div>
 
       {/* Education */}
-      <div className="mt-8">
+      <div className="mt-2">
         <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
           {resolve(labels.sections.education)}
         </h2>

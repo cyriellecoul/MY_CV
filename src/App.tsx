@@ -57,8 +57,8 @@ function ThemeVarsInjector({ children }: { children: React.ReactNode }) {
 }
 
 function DevPresetSelector() {
-  const { preset, setPreset } = useTheme()
-  const presetNames = Object.keys(presets) as PresetName[]
+
+
 
   return (
     <div className="fixed top-4 left-4 z-50 hidden md:block">

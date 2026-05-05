@@ -155,7 +155,7 @@ const TECH_REGISTRY = {
   'Confluence': { color: '#2596BE' },
   'Testing Library': { color: '#E33332' },
   'Bitbucket': { color: '#2EAD33' },
-  'Selenium': { color: '#43B02A' },
+  'Selenium': { color: '#635BFF' },
 
   // ===== AI & Data =====
   'TensorFlow': { color: '#FF6F00' },
