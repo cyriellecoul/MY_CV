@@ -2,13 +2,15 @@ import { useState } from 'react'
 import { useTranslation } from '@/lib/i18n'
 import { resumeConfig } from '@/data/resume-config'
 import { ExperienceItem } from './ExperienceItem'
-import { ProjectItem } from './ProjectItem'
+
 import { EducationItem } from './EducationItem'
 
 export function MainContent() {
   const { resolve, resolveArray } = useTranslation()
-  const { personal, experiences, projects, education, labels } = resumeConfig
-  const [expandedExp, setExpandedExp] = useState<string | null>(null)
+  const { personal, experiences, education, labels } = resumeConfig
+  const [expandedExp, setExpandedExp] = useState<string | null>(
+  experiences[0]?.id ?? null
+);
 
   const toggleExp = (id: string) => {
     setExpandedExp(expandedExp === id ? null : id)
@@ -35,8 +37,8 @@ export function MainContent() {
         </p>
 
         {personal.titleSpecialized && (
-          <p className="text-xl text-resume-text-secondary tracking-widest mt-2 italic">
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized2)}</strong>
+          <p className="text-ml text-resume-text-secondary tracking-widest mt-2 italic">
+            <strong> {resolve(personal.titleSpecialized)} </strong>
           </p>
         )}
       </div>
@@ -56,7 +58,7 @@ export function MainContent() {
               role={resolve(exp.role)}
               description={resolve(exp.description)}
               techs={exp.techs}
-              expanded={true}
+              expanded={expandedExp === exp.id}
               onToggle={() => toggleExp(exp.id)}
               details={
                 exp.details

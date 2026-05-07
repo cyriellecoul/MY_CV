@@ -22,35 +22,8 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Analyste en assurance qualité (QA)',
     },
     titleSpecialized: {
-      titleSpecialized1: {
-        en: 'After',
-        fr: 'Après',
-      },
-      titleSpecialized2: {
-        en: ' 5 years of experience',
-        fr: ' 5 années d’expérience',
-      },
-      titleSpecialized3: {
-        en: ' as a ',
-        fr: ' en tant que ',
-      },
-      titleSpecialized4: {
-        en: 'software developer ',
-        fr: 'développeuse logiciels, ',
-      },
-      titleSpecialized5: {
-        en: ' I am now looking to transition into a ',
-        fr: 'je souhaite aujourd’hui orienter ma carrière vers un poste ',
-      },
-      titleSpecialized6: {
-        en: 'manual and automated QA role ',
-        fr: 'd\'analyste QA manuel et automatisé ',
-      },
-      titleSpecialized7: {
-        en: 'in order to contribute to the reliability and performance of digital products.',
-        fr: 'afin de contribuer à la fiabilité et à la performance des produits numériques.',
-      },
-
+      en: ' 5 years of experience',
+      fr: ' 5 ans d’expérience',
     },
     location: 'Montréal, Québec',
   },
@@ -90,66 +63,50 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' } },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Advanced', fr: 'Avancé' } },
       ],
     },
-    {
-      title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
-      type: 'bullets',
-      items: [
-        { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
-        { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
-        { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
-        { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
-      ]
-    },
+    // {
+    //   title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
+    //   type: 'bullets',
+    //   items: [
+    //     { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
+    //     { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
+    //     { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+    //     { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
+    //     { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
+    //   ]
+    // },
     {
       title: { en: 'Tools & Tech Stack', fr: 'Outils & Tech Stack' },
       type: 'badges',
       items: [
-        // QA / Test management (priorité maximale)
+        { name: 'Agile/Scrum' },
         { name: 'Jira' },
         { name: 'Confluence' },
-        { name: 'Agile/Scrum' },
-        { name: 'Code Review' },
-        { name: 'Pull Requests' },
-
-        // API / Testing tools
+          { name: 'Git' },
         { name: 'Postman' },
         { name: 'REST APIs' },
-        { name: 'Selenium' },
         { name: 'Ngrok' },
-
-        // Version control / collaboration
-        { name: 'Git' },
-        { name: 'GitHub' },
-        { name: 'Bitbucket' },
-        { name: 'SourceTree' },
-
-        // Data / DB (important QA backend)
-        { name: 'SQL' },
         { name: 'MongoDB' },
-
-        // DevOps / infra (QA support)
-        { name: 'Docker' },
-
-        // Programming languages (support QA automation / scripting)
-        { name: 'Java' },
         { name: 'JavaScript' },
         { name: 'Node.js' },
-
-        // Front / mobile testing context
+        { name: 'NoSQL' },
+        { name: 'Bitbucket' },
+        { name: 'Java' },
         { name: 'Angular' },
-        { name: 'React' },
-        { name: 'React Native' },
-        { name: 'HTML' },
-        { name: 'CSS' },
-
-        // Mobile testing environments
         { name: 'Android Studio' },
         { name: 'Xcode' },
-        { name: 'Objective-C' }
+        { name: 'Code Review' },
+        { name: 'Pull Requests' },
+        { name: 'GitHub' },
+        { name: 'SourceTree' },
+        { name: 'Objective-C' },
+        { name: 'HTML' },
+        { name: 'CSS' },
+        { name: 'React' },
+        { name: 'React Native' },
+        { name: 'Selenium WebDriver' },
       ],
     },
   ],
@@ -167,31 +124,17 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
       techs: [
-        'Tests logiciels',
-        'Conception de cas de test',
-        'Plans de test',
-        'Tests de régression',
-        'Tests manuels',
-        'Automatisation QA',
-        'Jira',
-        'Suivi et gestion des anomalies',
-        'Git',
-        'REST APIs',
-        'Postman',
-        'MongoDB',
-        'SQL',
-        'Agile/Scrum',
-        'JavaScript',
-        'Node.js',
-        'Java',
-        'Angular',
-        'Android Studio',
-        'Xcode',
-        'Souci du détail',
-        'Esprit analytique',
-        'Résolution de problèmes'
-      ],
-      isHighlighted: true,
+        'Analyse des besoins',
+        'Rédaction de documentation',
+        'Gestion des risques',
+        'Esprit d’analyse',      
+        'Rigueur', 'Autonomie',
+        'Tests fonctionnels, automatisés et de régression',
+        'Résolution de problèmes',
+        'Suivi de projets',
+  
+        'Souci du détail'
+      ], isHighlighted: true,
       details: {
         context1: {
           en: '',
@@ -202,39 +145,69 @@ export const resumeConfig: ResumeConfig = {
           fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\'une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
         tasks: {
-          en: [
-            '**Gathered and analyzed requirements** to design comprehensive **test plans and test cases** aligned with specifications.',
-            '**Participated in the development and execution of test plans**, ensuring adequate **test coverage** and product quality.',
-            '**Executed manual tests** and validated deliverables across multiple platforms (Android, iOS, Web).',
-            '**Monitored test execution**, identifying, documenting, and tracking defects using **Jira**.',
-            '**Diagnosed and resolved anomalies**, performing root cause analysis and ensuring proper follow-up.',
-            '**Created and managed test data** for both manual and API testing scenarios.',
-            'Validated **REST APIs** using **Postman** and **Ngrok**, including functional and integration testing.',
-            '**Identified opportunities for test automation** and contributed to continuous QA improvement initiatives.',
-            'Collaborated with **cross-functional teams** to ensure alignment on quality standards and delivery timelines.',
-            '**Reported defects and ensured traceability** throughout the testing lifecycle.',
+          'en': [
+            '**Front-End/Mobile solution design** in Agile collaboration with multidisciplinary teams to define client requirements.',
+            '**Requirements analysis** as well as **risk assessment and identification**.',
+            'Execution of **manual, automated, and regression tests** to ensure deliverable compliance.',
+            '**Defect management** (detection, documentation, and tracking).',
+            'Validation of **REST APIs using Postman and Ngrok** and creation of **test data with MongoDB**.',
+            '**Cross-platform testing** (Web, Android Studio, Xcode).'
           ],
-          fr: [
-            '**Recueil et analyse des besoins** afin de concevoir des **plans de test et cas de test** conformes aux spécifications.',
-            '**Participation à l’élaboration et à l’exécution des plans de test**, en assurant une **couverture de test adéquate** et la qualité des livrables.',
-            '**Exécution de tests manuels** et validation des livrables sur différentes plateformes (Android, iOS, Web).',
-            '**Suivi du déroulement des tests**, avec détection, documentation et gestion des anomalies via **Jira**.',
-            '**Diagnostic et correction des anomalies**, incluant l’analyse des causes et le suivi des résolutions.',
-            '**Création et gestion de jeux de données de test** pour les tests manuels et les tests d’API.',
-            'Validation d’**APIs REST** avec **Postman** et **Ngrok**, incluant des tests fonctionnels et d’intégration.',
-            '**Identification des opportunités d’automatisation des tests** et contribution à l’amélioration continue des pratiques QA.',
-            'Collaboration avec des **équipes multidisciplinaires** afin d’assurer la qualité et le respect des échéanciers.',
-            '**Rapport des anomalies et traçabilité** tout au long du cycle de test.',
-          ],
+          'fr': [
+            '**Conception de solutions Front-End/Mobile** en collaboration Agile avec des équipes multidisciplinaires pour la définition des besoins clients.',
+            '**Analyse des besoins** ainsi qu’**évaluation et définition des risques**.',
+            'Exécution de **tests manuels, automatisés et de régression** afin d’assurer la conformité des livrables.',
+            '**Gestion des anomalies** (détection, documentation et suivi).',
+            'Validation d’**API REST avec Postman et Ngrok** ainsi que création de **données de test via MongoDB**.',
+            '**Tests multi-plateformes** (Web, Android Studio, Xcode).'
+          ]
         },
         features: {
+          en: [],
+          fr: [],
+        },
+        env: {
+          en: '',
+          fr: '',
+        },
+      },
+    },
+    {
+      id: 'company-b',
+      company: { en: 'Communauto', fr: 'Communauto' },
+      role: { en: 'Road agent', fr: 'Agente de route' },
+      type: { en: 'Montréal', fr: 'Montréal' },
+      period: { en: '02/2018 - 09/2019', fr: '02/2018 - 09/2019' },
+      description: {
+        en: 'Managed technical aspects of the vehicle fleet, including inspections, transfers to car wash or charging stations, and equipping vehicles with missing essentials.',
+        fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
+      },
+      techs: ['Travail d\'équipe', 'Adaptabilité/Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
+      details: {
+        context1: {
+          en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
+          fr: 'Leader de l’autopartage au Canada avec plus de 4500 véhicules en libre-service dans 6 villes.',
+        },
+        tasks: {
           en: [
-
-
+            'Maintain daily centralized tracking of actions with the logistics team via the internal application.',
+            'Conduct vehicle inspections (interior and exterior) to ensure proper functioning.',
+            'Ensure consistent workflow and optimal service quality.',
+            'Identify solutions to improve team performance.',
+            'Communicated regularly with the team to ensure efficient fleet management.',
           ],
           fr: [
-
-
+            'Établir un suivi quotidien et centralisé des actions avec l\'équipe logistique via l\'application interne.',
+            'Inspections des véhicules (intérieur et extérieur) pour assurer un bon fonctionnement.',
+            'Assurer une régularité de travail et une qualité de service optimal.',
+            'Identifier des solutions pour améliorer la performance de l’équipe.',
+            'Assurer une communication régulière avec l\'équipe pour assurer un bon suivi de la flotte automobile.',
+          ],
+        },
+        training: {
+          en: [
+          ],
+          fr: [
           ],
         },
         env: {
@@ -314,6 +287,12 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== HOBBIES (optional) =====
   hobbies: [
+    {
+      title: { en: 'A favorite subject?', fr: 'Un sujet de prédilection ?' },
+      details: [
+        { en: 'The city of Montreal and which means of transport to choose to go from point A to B optimally.', fr: 'La ville de Montréal et les moyens de transport à choisir pour se déplacer de A à B de manière optimale.' },
+      ],
+    },
     {
       title: { en: 'Arts', fr: 'Arts' }, details: [
         { en: 'In all its forms: exhibitions, museums, circus, music, theater, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, etc.)' },

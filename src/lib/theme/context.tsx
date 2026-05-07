@@ -16,7 +16,7 @@ function getTimeBasedTheme(): 'light' | 'dark' {
   // Jan:8 Feb:8 Mar:7 Apr:7 May:6 Jun:6 Jul:6 Aug:7 Sep:7 Oct:7 Nov:8 Dec:8
   const morningThresholds = [8, 8, 7, 7, 6, 6, 6, 7, 7, 7, 8, 8]
 
-  return hour >= eveningThresholds[month] || hour < morningThresholds[month] ? 'dark' : 'light'
+  return hour >= eveningThresholds[month] || hour < morningThresholds[month] ? 'light' : 'light'
 }
 
 function getInitialDark(): boolean {

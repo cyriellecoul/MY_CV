@@ -137,24 +137,13 @@ export interface ResumeLabels {
 
 // ===== MAIN CONFIG =====
 
-type TitleSpecialized = {
-  titleSpecialized1: LocalizedString;
-  titleSpecialized2: LocalizedString;
-  titleSpecialized3: LocalizedString;
-  titleSpecialized4: LocalizedString;
-  titleSpecialized5: LocalizedString;
-  titleSpecialized6: LocalizedString;
-  titleSpecialized7: LocalizedString;
-};
-
-
 export interface ResumeConfig {
   personal: {
     name: string
     photo?: string
     photoBackEmoji?: string
     title: LocalizedString
-    titleSpecialized: TitleSpecialized
+    titleSpecialized: LocalizedString
     subtitle?: LocalizedString
     location?: string
   }
