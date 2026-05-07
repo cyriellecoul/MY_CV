@@ -22,35 +22,8 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Analyste en assurance qualité (QA)',
     },
     titleSpecialized: {
-      titleSpecialized1: {
-        en: 'After',
-        fr: 'Après',
-      },
-      titleSpecialized2: {
-        en: ' 5 years of experience',
-        fr: ' 5 années d’expérience',
-      },
-      titleSpecialized3: {
-        en: ' as a ',
-        fr: ' en tant que ',
-      },
-      titleSpecialized4: {
-        en: 'software developer ',
-        fr: 'développeuse logiciels, ',
-      },
-      titleSpecialized5: {
-        en: ' I am now looking to transition into a ',
-        fr: 'je souhaite aujourd’hui orienter ma carrière vers un poste ',
-      },
-      titleSpecialized6: {
-        en: 'manual and automated QA role ',
-        fr: 'd\'analyste QA manuel et automatisé ',
-      },
-      titleSpecialized7: {
-        en: 'in order to contribute to the reliability and performance of digital products.',
-        fr: 'afin de contribuer à la fiabilité et à la performance des produits numériques.',
-      },
-
+      en: ' 5 years of experience',
+      fr: ' 5 ans d’expérience',
     },
     location: 'Montréal, Québec',
   },
@@ -78,7 +51,7 @@ export const resumeConfig: ResumeConfig = {
 
     { type: 'portfolio', label: 'Portfolio', href: 'https://cyriellecoul.github.io/devPortfolio/' },
     { type: 'linkedin', label: 'Cyrielle C', href: 'https://www.linkedin.com/in/cyrielle-c/' },
-    { type: 'github', label: 'cyriellecoul', href: 'https://github.com/cyriellecoul' },
+
     { type: 'location', label: 'Montréal, Québec' },
 
   ],
@@ -90,52 +63,51 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' } },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Advanced', fr: 'Avancé' } },
       ],
     },
-    {
-      title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
-      type: 'bullets',
-      items: [
-        { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
-        { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
-        { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
-        { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
-      ]
-    },
+    // {
+    //   title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
+    //   type: 'bullets',
+    //   items: [
+    //     { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
+    //     { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
+    //     { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+    //     { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
+    //     { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
+    //   ]
+    // },
     {
       title: { en: 'Tools & Tech Stack', fr: 'Outils & Tech Stack' },
       type: 'badges',
       items: [
+        { name: 'Agile/Scrum' },
         { name: 'Jira' },
-        { name: 'Git' },
+        { name: 'Confluence' },
         { name: 'Postman' },
-        { name: 'Java' },
-        { name: 'Node.js' },
-        { name: 'JavaScript' },
+        { name: 'REST APIs' },
+        { name: 'Ngrok' },
+        { name: 'Git' },
         { name: 'MongoDB' },
+        { name: 'JavaScript' },
+        { name: 'Node.js' },
         { name: 'NoSQL' },
         { name: 'Bitbucket' },
-        { name: 'QA' },
-        { name: 'Confluence' },
-        { name: 'Agile/Scrum' },
+        { name: 'Java' },
+        { name: 'Angular' },
+        { name: 'Android Studio' },
+        { name: 'Xcode' },
         { name: 'Code Review' },
         { name: 'Pull Requests' },
         { name: 'SourceTree' },
         { name: 'Docker' },
-       { name: 'GitHub' },
+        { name: 'GitHub' },
         { name: 'Objective-C' },
         { name: 'HTML' },
         { name: 'CSS' },
         { name: 'React' },
-        { name: 'Angular' },
         { name: 'React Native' },
-        { name: 'Android Studio' },
-        { name: 'Xcode' },
-        { name: 'REST APIs' },
-        { name: 'Ngrok' },
-        { name: 'Selenium' },
+        { name: 'Selenium WebDriver' },
       ],
     },
   ],
@@ -152,47 +124,52 @@ export const resumeConfig: ResumeConfig = {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse'],
-      isHighlighted: true,
+      techs: [
+        'Analyse des besoins',
+        'Rédaction de documentation',
+        'Gestion des risques',
+        'Esprit d’analyse',      
+        'Rigueur', 'Autonomie',
+        'Tests fonctionnels, automatisés et de régression',
+        'Résolution de problèmes',
+        'Suivi de projets',
+  
+        'Souci du détail'
+      ], isHighlighted: true,
       details: {
         context1: {
-          en: 'Quality assurance has always been one of my core strengths, as I proactively anticipate issues and ensure high-quality deliverables from the early stages of development.',
-          fr: 'Le QA a toujours été l’une de mes grandes forces car je m’efforce d’anticiper les problèmes et de garantir la qualité des livrables dès les premières phases du développement.',
+          en: '',
+          fr: '',
         },
         context2: {
           en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
-          fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\' une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
+          fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\'une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
         tasks: {
-          en: [
-            'Requirements analysis, defect management, documentation updates and quality assurance of digital products: --- Performed daily **regression testing** during branch checkouts. --- **Proactive identification of risks** and **recommendation of solutions** to ensure high-quality deliverables. --- Executed **manual and automated testing** on both complete and partial features. --- Used **simulators via Android Studio and Xcode** to validate features across various configurations in Android and iOS environments. --- Performed **unit testing** on REST APIs (Node.js) using **Postman** and **Ngrok**. --- Creation of **test data** and validation of functionalities.',
-            '**Developed and implemented** new features in Front-End and Mobile.',
-            'Data querying and **analysis using MongoDB**, with fundamental knowledge of **NoSQL**.',
-            'Involvement in daily meetings to **ensure proper tracking of ongoing projects**.',
+          'en': [
+            '**Front-End/Mobile solution design** in Agile collaboration with multidisciplinary teams to define client requirements.',
+            '**Requirements analysis** as well as **risk assessment and identification**.',
+            'Execution of **manual, automated, and regression tests** to ensure deliverable compliance.',
+            '**Defect management** (detection, documentation, and tracking).',
+            'Validation of **REST APIs using Postman and Ngrok** and creation of **test data with MongoDB**.',
+            '**Cross-platform testing** (Web, Android Studio, Xcode).'
           ],
-          fr: [
-            'Analyse des besoins, gestion des anomalies, mise à jour de la documentation et assurance de la qualité des produits numériques : --- Identification et réalisation **des cas de tests de régression** quotidiens lors du checkout des branches. --- **Détection des risques** en amont et **proposition de solutions** pour assurer la qualité des produits livrés. --- Exécution de **tests manuels et automatisés** sur des fonctionnalités complètes et partielles. --- **Utilisation de simulateurs via Android Studio et Xcode** pour valider les fonctionnalités sur différentes configurations dans les environnements Android et iOS. --- **Tests unitaires** d\'API REST (Node.js) avec l’utilisation de **Postman et Ngrok**. --- Création de **données de tests** et validation des fonctionnalités.',
-            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End et Mobile.',
-            'Consultation et **analyse de données via MongoDB**, avec des notions essentielles de **NoSQL**.',
-            'Implication dans les rencontres quotidiennes afin d’assurer le **suivi des projets en cours**. ',
-          ],
+          'fr': [
+            '**Conception de solutions Front-End/Mobile** en collaboration Agile avec des équipes multidisciplinaires pour la définition des besoins clients.',
+            '**Analyse des besoins** ainsi qu’**évaluation et définition des risques**.',
+            'Exécution de **tests manuels, automatisés et de régression** afin d’assurer la conformité des livrables.',
+            '**Gestion des anomalies** (détection, documentation et suivi).',
+            'Validation d’**API REST avec Postman et Ngrok** ainsi que création de **données de test via MongoDB**.',
+            '**Tests multi-plateformes** (Web, Android Studio, Xcode).'
+          ]
         },
         features: {
           en: [
-            'Internal communication module',
-            'Internal forms (disciplinary and technical forms)',
-            'Automatic vehicle departures and arrivals based on speed and location',
-            'Overview of upcoming routes for drivers',
-            'Improvements to mobile app UI and UX',
-            'Display of recent changes to routes, etc...',
+
           ],
           fr: [
-            'Module de communication interne',
-            'Formulaires internes (Formulaire disciplinaire et technique)',
-            'Départs et arrivées automatiques des véhicules en fonction de leur vitesse et de leur localisation',
-            'Aperçu des trajets futurs pour les conducteurs·rices',
-            'Améliorations du UI et UX de l’application mobile',
-            'Affichage des modifications récentes sur les itinéraires, etc...',
+
+
           ],
         },
         env: {
@@ -211,7 +188,7 @@ export const resumeConfig: ResumeConfig = {
         en: 'Managed technical aspects of the vehicle fleet, including inspections, transfers to car wash or charging stations, and equipping vehicles with missing essentials.',
         fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
       },
-      techs: ['Travail d\'équipe', 'Adaptabilité / Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
+      techs: ['Travail d\'équipe', 'Adaptabilité/Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
       details: {
         context1: {
           en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
@@ -245,48 +222,7 @@ export const resumeConfig: ResumeConfig = {
         },
       },
     },
-    {
-      id: 'company-c',
-      company: { en: 'Familiprix - L.Dufour et S. Lamoureux', fr: 'Familiprix - L.Dufour et S. Lamoureux' },
-      role: { en: 'Delivery and Pharmacy Technician', fr: 'Livreuse et technicienne en pharmacie' },
-      type: { en: 'Montréal', fr: 'Montréal' },
-      period: { en: '06/2015 - 01/2018', fr: '06/2015 - 01/2018' },
-      description: {
-        en: 'Handled deliveries of medications and other items, ensuring a high standard of customer service with every client interaction.',
-        fr: 'Effectuer les livraisons de médicaments et autres produits et assurer un service à la clientèle de qualité lors des interactions avec les clients.',
-      },
-      techs: ['Empathie et écoute active', 'Service à la clientèle', 'Prise d\'initiatives', 'Autonomie', 'Gestion du temps', 'Travail d\'équipe', 'Gestion du stress'],
-      details: {
-        context1: {
-          en: 'Human-scale, community-oriented pharmacy.',
-          fr: 'Pharmacie de proximité à taille humaine.',
-        },
-        tasks: {
-          en: [
-            'Prepare delivery bags and ensure their accuracy by asking verification questions.',
-            'Optimized delivery routes according to urgency.',
-            'Build strong relationships with clients to maintain high-quality service.',
-            'Communicated regularly with the team to guarantee seamless operations',
-          ],
-          fr: [
-            'Préparer les sacs de livraison et s\'assurer de leur exactitude et en posant des questions.',
-            'Optimiser les itinéraires en fonction des urgences.',
-            'Établir une relation de proximité avec les clients afin de maintenir un service de qualité.',
-            'Assurer une communication régulière avec l\'équipe pour le bon déroulement des opérations.',
-          ],
-        },
-        training: {
-          en: [
-          ],
-          fr: [
-          ],
-        },
-        env: {
-          en: '',
-          fr: '',
-        },
-      },
-    },
+
   ],
 
   // ===== PROJECTS (optional) =====
@@ -362,9 +298,10 @@ export const resumeConfig: ResumeConfig = {
       details: [
         { en: 'The city of Montreal and which means of transport to choose to go from point A to B optimally.', fr: 'La ville de Montréal et les moyens de transport à choisir pour se déplacer de A à B de manière optimale.' },
       ],
-    }, {
+    },
+    {
       title: { en: 'Arts', fr: 'Arts' }, details: [
-        { en: 'In all its forms: exhibitions, museums, circus, music, theater, drag, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, drag, etc.)' },
+        { en: 'In all its forms: exhibitions, museums, circus, music, theater, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, etc.)' },
       ],
     },
     {
@@ -410,7 +347,7 @@ export const resumeConfig: ResumeConfig = {
       technologies: { en: 'Technologies', fr: 'Technologies' },
     },
     actions: {
-      clickHint: { en: 'Click on experiences to see more details', fr: 'Cliquez sur les expériences pour voir plus de détails' },
+      clickHint: { en: '', fr: '' },
       switchTheme: { en: 'Toggle dark mode', fr: 'Changer le thème' },
       downloadPdf: { en: 'Download PDF', fr: 'Télécharger le PDF' },
     },

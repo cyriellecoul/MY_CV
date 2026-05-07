@@ -35,14 +35,8 @@ export function MainContent() {
         </p>
 
         {personal.titleSpecialized && (
-          <p className="text-sm text-resume-text-secondary tracking-widest mt-2 italic">
-            {resolve(personal.titleSpecialized.titleSpecialized1)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized2)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized3)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized4)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized5)}
-            <strong>{resolve(personal.titleSpecialized.titleSpecialized6)}</strong>
-            {resolve(personal.titleSpecialized.titleSpecialized7)}
+          <p className="text-ml text-resume-text-secondary tracking-widest mt-2 italic">
+            <strong> {resolve(personal.titleSpecialized)} </strong>
           </p>
         )}
       </div>

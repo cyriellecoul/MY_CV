@@ -129,15 +129,15 @@ export function Sidebar() {
                         key={`${name}-${j}`}
                         className="flex items-center gap-2 px-3 py-1 rounded-lg
           bg-resume-card/60 border border-resume-border/60
-          text-sm text-resume-text-secondary"
+          text-ml text-resume-text-secondary"
                       >
-                        <span className="text-resume-primary">
+                        <span className=" bg-resume-border/40 text-resume-text-secondary ">
                           {name}
                         </span>
 
                         {level && (
-                          <span className="text-xs px-2 py-0.5 rounded-md 
-            bg-resume-border/40 text-resume-text-secondary font-bold">
+                          <span className="text-ml px-2 py-0.5 rounded-md text-resume-primary font-bold
+           ">
                             {level}
                           </span>
                         )}
@@ -164,12 +164,12 @@ export function Sidebar() {
       {/* Hobbies */}
       {hobbies && hobbies.length > 0 && labels.sections.hobbies && (
         <SidebarSection title={resolve(labels.sections.hobbies)} className='mt-6'>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="space-y-4 mt-6">
             {hobbies.map((hobby, i) => (
               <div key={`${resolve(hobby.title)}-${i}`}>
-                <p className="font-medium text-sm text-resume-text">{resolve(hobby.title)}</p>
+                <p className="font-medium text-ml text-resume-text">{resolve(hobby.title)}</p>
                 {hobby.details?.map((detail, j) => (
-                  <p key={j} className="text-sm text-resume-text-secondary">
+                  <p key={j} className="text-ml text-resume-text-secondary">
                     {resolve(detail)}
                   </p>
                 ))}

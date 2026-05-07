@@ -27,7 +27,7 @@ const TECH_REGISTRY = {
 
   // ===== Languages =====
   'TypeScript': { color: '#3178C6' },
-  'JavaScript': { color: '#339933' },
+  'JavaScript': { color: '#3776AB' },
   'Python': { color: '#3776AB' },
   'Java': { color: '#E34F26' },
   'Go': { color: '#00ADD8' },
@@ -41,7 +41,7 @@ const TECH_REGISTRY = {
   'Swift': { color: '#F05138' },
   'Kotlin': { color: '#7F52FF' },
   'Dart': { color: '#0175C2' },
-  'Objective-C': { color: '#61DAFB' },
+  'Objective-C': { color: '#FF00C2' },
   'Android Studio': { color: '#276DC3' },
   'Haskell': { color: '#5D4F85' },
   'Lua': { color: '#2C2D72' },
@@ -72,7 +72,7 @@ const TECH_REGISTRY = {
   'Bun': { color: '#FBF0DF' },
 
   // ===== Mobile =====
-  'React Native': { color: '#4FC08D' },
+  'React Native': { color: '#02569B' },
   'Flutter': { color: '#02569B' },
   'Ionic': { color: '#3880FF' },
   'SwiftUI': { color: '#F05138' },
@@ -119,7 +119,7 @@ const TECH_REGISTRY = {
   'SASS': { color: '#CC6699' },
   'SCSS': { color: '#CC6699' },
   'CSS': { color: '#06B6D4' },
-  'HTML': { color: '#61DAFB' },
+  'HTML': { color: '#FF6F00' },
   'Styled Components': { color: '#DB7093' },
   'Material UI': { color: '#007FFF' },
   'MUI': { color: '#007FFF' },
@@ -155,7 +155,7 @@ const TECH_REGISTRY = {
   'Confluence': { color: '#2596BE' },
   'Testing Library': { color: '#E33332' },
   'Bitbucket': { color: '#2EAD33' },
-  'Selenium': { color: '#43B02A' },
+  'Selenium WebDriver': { color: '#635BFF' },
 
   // ===== AI & Data =====
   'TensorFlow': { color: '#FF6F00' },
@@ -184,8 +184,11 @@ const TECH_REGISTRY = {
   'jQuery': { color: '#0769AD' },
 
   // ===== Soft Skills =====
+  'Analyse des besoins': { color: '#FF1493' },
+  'Rédaction de documentation': { color: '#FF0033' },
   'Travail d\'équipe': { color: '#FF6A00' },
-  'Adaptabilité / Flexibilité ': { color: '#A6FF00' },
+  'Adaptabilité/Flexibilité': { color: '#A6FF00' },
+  'Modélisation des processus': { color: '#00E676' },
   'Suivi de projets': { color: '#00E676' },
   'Autonomie': { color: '#DC322F' },
   'Service à la clientèle': { color: '#0066FF' },
@@ -196,7 +199,9 @@ const TECH_REGISTRY = {
   'Prise d\'initiatives': { color: '#FF0033' },
   'Gestion du stress': {color :'#007396' },
   'Souci du détail': { color: '#FF6A00' },
-  'Esprit d\'analyse': { color: '#A6FF00' },
+  'Esprit d’analyse': { color: '#A6FF00' },
+  'Gestion des risques': { color: '#FF6A00' },
+  'Tests fonctionnels, automatisés et de régression': { color: '#326CE5' },
 
 } as const satisfies Record<string, { color: string }>
 
