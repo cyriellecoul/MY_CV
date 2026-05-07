@@ -8,7 +8,9 @@ import { EducationItem } from './EducationItem'
 export function MainContent() {
   const { resolve, resolveArray } = useTranslation()
   const { personal, experiences, projects, education, labels } = resumeConfig
-  const [expandedExp, setExpandedExp] = useState<string | null>(null)
+const [expandedExp, setExpandedExp] = useState<string | null>(
+  experiences[0]?.id ?? null
+);
 
   const toggleExp = (id: string) => {
     setExpandedExp(expandedExp === id ? null : id)
@@ -56,7 +58,7 @@ export function MainContent() {
               role={resolve(exp.role)}
               description={resolve(exp.description)}
               techs={exp.techs}
-              expanded={true}
+                     expanded={expandedExp === exp.id}
               onToggle={() => toggleExp(exp.id)}
               details={
                 exp.details

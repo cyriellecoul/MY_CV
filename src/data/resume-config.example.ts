@@ -90,35 +90,40 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' } },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Advanced', fr: 'Avancé' } },
       ],
     },
-    {
-      title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
-      type: 'bullets',
-      items: [
-        { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
-        { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
-        { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
-        { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
-        { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
-      ]
-    },
+    // {
+    //   title: { en: 'Quality Assurance & Testing', fr: 'Assurance qualité et tests' },
+    //   type: 'bullets',
+    //   items: [
+    //     { name: { en: 'Functional, regression, and exploratory testing (web & mobile)', fr: 'Tests fonctionnels, de régression et exploratoires (web et mobile)' } },
+    //     { name: { en: 'Test case design, execution, and defect tracking', fr: 'Conception, exécution des cas de test et suivi des anomalies' } },
+    //     { name: { en: 'Automated testing using Selenium WebDriver', fr: 'Tests automatisés avec Selenium WebDriver' } },
+    //     { name: { en: 'API testing with Postman', fr: 'Tests d’API avec Postman' } },
+    //     { name: { en: 'Test management and bug tracking using Jira', fr: 'Gestion des tests et suivi des anomalies avec Jira' } },
+    //   ]
+    // },
     {
       title: { en: 'Tools & Tech Stack', fr: 'Outils & Tech Stack' },
       type: 'badges',
       items: [
+        { name: 'Agile/Scrum' },
         { name: 'Jira' },
-        { name: 'Git' },
+        { name: 'Confluence' },
         { name: 'Postman' },
-        { name: 'Java' },
-        { name: 'Node.js' },
-        { name: 'JavaScript' },
+        { name: 'REST APIs' },
+        { name: 'Ngrok' },
+        { name: 'Git' },
         { name: 'MongoDB' },
+        { name: 'JavaScript' },
+        { name: 'Node.js' },
         { name: 'NoSQL' },
         { name: 'Bitbucket' },
-        { name: 'Confluence' },
-        { name: 'Agile/Scrum' },
+        { name: 'Java' },
+        { name: 'Angular' },
+        { name: 'Android Studio' },
+        { name: 'Xcode' },
         { name: 'Code Review' },
         { name: 'Pull Requests' },
         { name: 'SourceTree' },
@@ -128,13 +133,8 @@ export const resumeConfig: ResumeConfig = {
         { name: 'HTML' },
         { name: 'CSS' },
         { name: 'React' },
-        { name: 'Angular' },
         { name: 'React Native' },
-        { name: 'Android Studio' },
-        { name: 'Xcode' },
-        { name: 'REST APIs' },
-        { name: 'Ngrok' },
-        { name: 'Selenium' },
+        { name: 'Selenium WebDriver' },
       ],
     },
   ],
@@ -151,8 +151,16 @@ export const resumeConfig: ResumeConfig = {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Jira', 'Postman', 'Git', 'MongoDB', 'NoSQL', 'Agile/Scrum', 'REST APIs', 'JavaScript', 'Node.js', 'Java', 'Angular', 'Android Studio', 'Xcode', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse'],
-      isHighlighted: true,
+      techs: [
+        'Analyse des besoins',
+        'Rédaction de documentation',
+        'Modélisation des processus (BPMN 2.0)',
+        'Gestion des exigences',
+        'Tests fonctionnels, automatisés et de régression',
+        'Esprit d’analyse',
+        'Rigueur',
+        'Souci du détail'
+      ], isHighlighted: true,
       details: {
         context1: {
           en: '',
@@ -164,25 +172,27 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            '**Requirements analysis** and design of **test cases (functional, regression)**.',
-            'Execution of **manual and automated testing** with deliverables validation.',
-            '**Defect management** (identification, documentation, tracking, and diagnosis).',
-            '**Regression testing** and **proactive risk identification**.',
-            'Validation of **REST APIs with Postman** and creation of **test data via MongoDB**.',
-            '**Cross-platform testing** (Android Studio, Xcode).',
-            '**Agile collaboration** with teams (dev, PO, SM) and continuous improvement.',
-            'Design and **Front-End/Mobile development** with involvement in requirements analysis.'
+            "Act as a liaison between **business needs** and **technology solutions** from early development stages to ensure requirement clarity and alignment.",
+            "Contribute to **business process modeling (BPMN 2.0)** and deliver analysis artifacts (requirements, test strategies, risks) supporting project planning.",
+            "Validate **REST APIs using Postman and Ngrok** by testing endpoints, responses, and data exchange quality across multiple scenarios.",
+            "Collaborate with **cross-functional Agile/Scrum teams** to deliver reliable and high-performing solutions.",
+            "Gather and validate **business requirements**, ensuring alignment with objectives and evaluation frameworks.",
+            "Support **functional and regression testing** to ensure solution quality.",
+            "Track and document **defects and issues**, contributing to continuous improvement.",
+            "Participate in **application and web deployment activities**.",
+            "Contribute to the development of **maintainable front-end and mobile solutions** aligned with business needs."
           ],
           fr: [
+            'Conception et **développement Front-End/Mobile** avec participation à la formalisation des besoins d’affaires.',
             '**Analyse des besoins** et conception de **cas de test (fonctionnels, régression)**.',
             'Exécution de **tests manuels et automatisés** avec validation des livrables.',
             '**Gestion des anomalies** (détection, documentation, suivi et diagnostic).',
             '**Tests de régression** et **identification proactive des risques**.',
             'Validation d’**API REST avec Postman** et création de **données de test via MongoDB**.',
-            '**Tests multi-plateformes** (Android Studio, Xcode).',
-            '**Collaboration Agile** avec équipes (dev, PO, SM) et amélioration continue.',
-            'Conception et **développement Front-End/Mobile** avec participation à l’analyse des besoins.'
-          ],
+            '**Tests multi-plateformes** (Web, Android Studio, Xcode).',
+            '**Collaboration Agile** avec des équipes multidisciplinaires et amélioration continue.',
+
+          ]
         },
         features: {
           en: [
@@ -192,6 +202,50 @@ export const resumeConfig: ResumeConfig = {
           fr: [
 
 
+          ],
+        },
+        env: {
+          en: '',
+          fr: '',
+        },
+      },
+    },
+    {
+      id: 'company-b',
+      company: { en: 'Communauto', fr: 'Communauto' },
+      role: { en: 'Road agent', fr: 'Agente de route' },
+      type: { en: 'Montréal', fr: 'Montréal' },
+      period: { en: '02/2018 - 09/2019', fr: '02/2018 - 09/2019' },
+      description: {
+        en: 'Managed technical aspects of the vehicle fleet, including inspections, transfers to car wash or charging stations, and equipping vehicles with missing essentials.',
+        fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
+      },
+      techs: ['Travail d\'équipe', 'Adaptabilité/Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
+      details: {
+        context1: {
+          en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
+          fr: 'Leader de l’autopartage au Canada avec plus de 4500 véhicules en libre-service dans 6 villes.',
+        },
+        tasks: {
+          en: [
+            'Maintain daily centralized tracking of actions with the logistics team via the internal application.',
+            'Conduct vehicle inspections (interior and exterior) to ensure proper functioning.',
+            'Ensure consistent workflow and optimal service quality.',
+            'Identify solutions to improve team performance.',
+            'Communicated regularly with the team to ensure efficient fleet management.',
+          ],
+          fr: [
+            'Établir un suivi quotidien et centralisé des actions avec l\'équipe logistique via l\'application interne.',
+            'Inspections des véhicules (intérieur et extérieur) pour assurer un bon fonctionnement.',
+            'Assurer une régularité de travail et une qualité de service optimal.',
+            'Identifier des solutions pour améliorer la performance de l’équipe.',
+            'Assurer une communication régulière avec l\'équipe pour assurer un bon suivi de la flotte automobile.',
+          ],
+        },
+        training: {
+          en: [
+          ],
+          fr: [
           ],
         },
         env: {
@@ -271,6 +325,12 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== HOBBIES (optional) =====
   hobbies: [
+    {
+      title: { en: 'A favorite subject?', fr: 'Un sujet de prédilection ?' },
+      details: [
+        { en: 'The city of Montreal and which means of transport to choose to go from point A to B optimally.', fr: 'La ville de Montréal et les moyens de transport à choisir pour se déplacer de A à B de manière optimale.' },
+      ],
+    },
     {
       title: { en: 'Arts', fr: 'Arts' }, details: [
         { en: 'In all its forms: exhibitions, museums, circus, music, theater, etc.)', fr: 'Sous toutes ses formes : expositions, musées, cirque, musique, théâtre, etc.)' },
