@@ -5,7 +5,6 @@ import { Sidebar } from './Sidebar'
 import { MainContent } from './MainContent'
 import { ThemeToggle } from './ThemeToggle'
 import { LanguageToggle } from './LanguageToggle'
-import { PdfDownload } from './PdfDownload'
 
 export function Resume() {
   const { resolve } = useTranslation()
