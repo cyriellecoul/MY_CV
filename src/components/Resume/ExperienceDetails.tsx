@@ -63,7 +63,7 @@ export function ExperienceDetailsContent({
       {tasks && tasks.length > 0 && (
         <div>
           <p className="text-sm font-semibold text-resume-text mb-2">{labels.mainTasks}</p>
-          <ul className="text-ml text-resume-text-secondary space-y-0">
+          <ul className="text-sm text-resume-text-secondary space-y-0">
             {(variant === 'inline' ? tasks.slice(0, MAX_INLINE_TASKS) : tasks).map((task, i) => {
 
               // 👉 split sur '---'

@@ -73,17 +73,38 @@ export const resumeConfig: ResumeConfig = {
     {
       title: { en: 'Front-End', fr: 'Front-End' },
       type: 'badges',
-      items: [
-        { name: 'Angular' },
-        { name: 'React' },
-        { name: 'JavaScript' },
-        { name: 'TypeScript' },
-        { name: "PHP" },
-        { name: 'HTML' },
-        { name: 'CSS' },
-        { name: 'Tailwind CSS' },
-        { name: 'Next.js' },
-      ],
+items: [
+  { name: 'Agile/Scrum' },
+  { name: 'Git' },
+  { name: 'GitHub' },
+  { name: 'Bitbucket' },
+  { name: 'Code Review' },
+  { name: 'Pull Requests' },
+  { name: 'Jira' },
+  { name: 'Confluence' },
+
+  { name: 'JavaScript' },
+  { name: 'Node.js' },
+  { name: 'Angular' },
+  { name: 'React' },
+  { name: 'React Native' },
+  { name: 'HTML' },
+  { name: 'CSS' },
+
+  { name: 'REST APIs' },
+  { name: 'Postman' },
+  { name: 'MongoDB' },
+  { name: 'NoSQL' },
+
+  { name: 'Android Studio' },
+  { name: 'Java' },
+  { name: 'Xcode' },
+  { name: 'Objective-C' },
+
+  { name: 'Ngrok' },
+  { name: 'SourceTree' },
+  { name: 'Selenium WebDriver' }
+]
     },
     {
       title: { en: 'Mobile', fr: 'Mobile' },
@@ -156,8 +177,17 @@ export const resumeConfig: ResumeConfig = {
         en: 'Product development, implementation, and testing of a web platform and its associated applications used by more than 10,000 users.',
         fr: 'Conception, développement et tests d’une plateforme web et de ses applications associées utilisées par plus de 10 000 utilisateurs·rices.',
       },
-      techs: ['Angular', 'JavaScript', 'Java', 'Objective-C', 'Node.js', 'Docker', 'REST APIs', 'Git', 'MongoDB', 'Jira', 'Rigueur', 'Souci du détail', 'Esprit d\'analyse', 'Esprit d\'équipe'],
-      isHighlighted: true,
+      techs: [
+        'Analyse des besoins',
+        'Rédaction de documentation',
+        'Gestion des risques','Sens de l\'écoute',
+        'Esprit d’analyse',      
+        'Rigueur', 'Autonomie',
+        'Souci du détail',
+        'Suivi de projets',
+        'Résolution de problèmes','Collaboration et cohésion d’équipe',
+        
+      ], isHighlighted: true,
       details: {
         context: {
           en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
@@ -165,26 +195,33 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            '**Developed and implemented** new features in Front-End (**Angular**, **JavaScript**, **TypeScript**) and Mobile (native: **Java** and **Objective-C**, cross-platform: **React Native**).',
-            '**Contributed to the full development lifecycle**, including coding, **unit testing**, integration, and **CI/CD pipelines (GitHub Actions)**.',
-            'Collaborated with back-end teams to **integrate REST APIs (Node.js)**, conducting testing and debugging via **Postman and Ngrok**.',
-            '**Analyzed, diagnosed, and resolved bugs**, ensuring application performance and product quality.',
-            '**Queried and analyzed data** using **MongoDB**, with solid understanding of **NoSQL** concepts.',
-            'Experience with **cloud-based data storage solutions (Firebase)** for real-time data management, with transferable concepts to platforms such as Azure Data Storage.',
-            'Actively participated in **code reviews, pair programming**, and team ceremonies within an **Agile/Scrum environment**.',
-            '**Contributed to technical documentation** and knowledge sharing within the team.',
+            'Design and development of **responsive web interfaces** using **TypeScript, JavaScript, HTML, and CSS/Sass**.',
+            'Development and maintenance of native and cross-platform mobile applications on **Android (Java)**, **iOS (Objective-C)**, and **React Native**.',
+            'Participation in the **full development lifecycle**: development, unit testing, integration, and deployment.',
+            'Integration of **REST APIs (Node.js)** in collaboration with back-end teams, including testing and debugging using **Postman and Ngrok**.',
+            'Analysis and resolution of incidents to ensure application **quality and stability**.',
+            'Data processing and analysis using **MongoDB (NoSQL)**.',
+            'Use of **Firebase** for real-time data management and mobile services (Crashlytics, Analytics, Cloud Messaging, Authentication).',
+            'Application of **Object-Oriented Programming (OOP)** principles, along with **design patterns** and **SOLID principles**, to design robust software architectures.',
+            'Writing and maintaining **technical documentation**.',
+            'Collaboration with UX/UI teams based on **Figma** designs to ensure a consistent and intuitive user experience.',
+            'Active participation in **code reviews**, **pair programming**, and Agile/Scrum meetings.'
           ],
           fr: [
-            '**Conception et implémentation** de nouvelles fonctionnalités en Front-End (**Angular**, **JavaScript**, **TypeScript**) et Mobile (natif: **Java** et **Objective-C**, multiplateforme: **React Native**).',
-            '**Participation au cycle complet de développement**, incluant le codage, les **tests unitaires**, l’intégration et les pipelines **CI/CD (GitHub Actions)**.',
-            '**Intégration d’APIs REST** en collaboration avec les équipes back-end (**Node.js**), avec tests et debugging via **Postman et Ngrok**.',
-            '**Analyse, diagnostic et résolution de bugs**, assurant la performance des applications et la qualité des produits.',
-            '**Consultation et analyse de données** via **MongoDB**, avec une bonne maîtrise des concepts **NoSQL**.',
-            'Expérience avec des **solutions de stockage de données infonuagiques (Firebase)** pour la gestion de données en temps réel, avec des concepts transférables vers des plateformes comme Azure Data Storage.',
-            'Participation active aux **revues de code, pair programming** et aux cérémonies d’équipe dans un environnement **Agile/Scrum**.',
-            '**Contribution à la documentation technique** et au partage des connaissances au sein de l’équipe.',
-          ],
+            'Conception et développement d’interfaces **web responsives** et évolutives à l’aide de **TypeScript, JavaScript, HTML et CSS/Sass**',
+            'Développement et maintenance d’applications mobiles natives et multiplateformes sur **Android (Java)**, **iOS (Objective-C)** et **React Native**',
+            'Participation au **cycle complet de développement** : dev, tests unitaires, intégration et déploiement.',
+            'Intégration d’**APIs REST (Node.js)** avec les équipes back-end, avec tests et debugging via **Postman et Ngrok**',
+            'Analyse et résolution de problèmes pour garantir la **qualité et la stabilité** des applications.',
+            'Exploitation et **analyse de données** via **MongoDB (NoSQL)**.',
+            'Utilisation de **Firebase** pour les données temps réel et services mobiles (Crashlytics, Analytics, Cloud Messaging, Authentication).',
+            'Application des principes de **programmation orientée objet (POO)** ainsi que des **design patterns** et des principes **SOLID** pour concevoir des architectures logicielles robustes.',
+            'Rédaction et maintien de la **documentation technique**.',
+            'Collaboration avec les équipes UX/UI à partir de maquettes **Figma** afin d’assurer une expérience utilisateur cohérente et intuitive.',
+            'Participation et implication lors du **Code Review**, **pair programming** et aux réunions d’équipe dans un environnement **Agile/Scrum**.',
+          ]
         },
+
         features: {
           en: [
             'Internal communication module',
@@ -219,14 +256,14 @@ export const resumeConfig: ResumeConfig = {
         en: 'Managed technical aspects of the vehicle fleet, including inspections, transfers to car wash or charging stations, and equipping vehicles with missing essentials.',
         fr: 'Gestion technique de la flotte automobile : inspections, transferts vers les stations de lavage ou de recharge, ajout d\'équipements de base manquants...',
       },
-      techs: ['Travail d\'équipe', 'Adaptabilité / Flexibilité', 'Suivi de projets', 'Autonomie', 'Rigueur', 'Résolution de problèmes',],
+      techs: ['Travail d\'équipe', 'Prise d\'initiatives', 'Suivi de projets', 'Autonomie', 'Gestion du temps', 'Résolution de problèmes',],
       details: {
         context: {
           en: 'Leading car-sharing company in Canada, operating over 4,500 self-service vehicles in 6 cities."',
           fr: 'Leader de l’autopartage au Canada avec plus de 4500 véhicules en libre-service dans 6 villes.',
         },
         tasks: {
-          en: [
+        en: [
             'Maintain daily centralized tracking of actions with the logistics team via the internal application.',
             'Conduct vehicle inspections (interior and exterior) to ensure proper functioning.',
             'Ensure consistent workflow and optimal service quality.',
