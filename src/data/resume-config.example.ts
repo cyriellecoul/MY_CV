@@ -145,22 +145,18 @@ export const resumeConfig: ResumeConfig = {
           en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
           fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\'une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
-        tasks: {
+          tasks: {
           'en': [
-            '**Front-End/Mobile solution design** in Agile collaboration with multidisciplinary teams to define client requirements.',
-            '**Requirements analysis** as well as **risk assessment and identification**.',
-            'Execution of **manual, automated, and regression tests** to ensure deliverable compliance.',
-            '**Defect management** (detection, documentation, and tracking).',
-            'Validation of **REST APIs using Postman and Ngrok** and creation of **test data with MongoDB**.',
-            '**Cross-platform testing** (Web, Android Studio, Xcode).'
+            '**Design of Front-End/Mobile solutions** in Agile collaboration with cross-functional teams to define client requirements.',
+            '**Quality assurance of digital products**: --- Writing and defining **test plans** and tracking issues using ticket management tools **(Jira)**. --- Design and daily execution of **functional, regression, and integration tests** during branch checkouts. --- Execution of **manual and automated tests** on partial or complete features to identify **technical and/or security-related issues**. --- Assessment of **risks**, identification of **acceptance criteria**, and proposal of **solutions** to ensure optimal and reliable product quality. --- Integration and testing of **REST APIs (Node.js)** using **Postman and Ngrok** in coordination with the Back-End team. --- Use of **iOS and Android simulators** to validate features across different environments, as well as execution of **multi-platform testing (responsive web, mobile)** in real and reproduced conditions. --- Creation of **test data** using **MongoDB** and validation of expected user story behavior. --- Participation in post-release testing via **TestFlight**, as well as production deployment (**go-live**) and stabilization support.',
+            'Writing and maintenance of detailed, accurate, and team-oriented **technical documentation**.',
+            'Participation in **sprint planning** and **task estimation** to improve **priority management** and meet project **deadlines**.'
           ],
           'fr': [
             '**Conception de solutions Front-End/Mobile** en collaboration Agile avec des équipes multidisciplinaires pour la définition des besoins clients.',
-            '**Analyse des besoins** ainsi qu’**évaluation et définition des risques**.',
-            'Exécution de **tests manuels, automatisés et de régression** afin d’assurer la conformité des livrables.',
-            '**Gestion des anomalies** (détection, documentation et suivi).',
-            'Validation d’**API REST avec Postman et Ngrok** ainsi que création de **données de test via MongoDB**.',
-            '**Tests multi-plateformes** (Web, Android Studio, Xcode).'
+            '**Assurance de la qualité des produits numériques** : --- Rédaction et définition de **plans de test** et suivi des anomalies via outils de gestion de tickets **(Jira)**. --- Conception et exécution quotidienne de **tests fonctionnels, de régression et d’intégration** lors du checkout des branches. --- Exécution de **tests manuels et automatisés** sur des fonctionnalités partielles ou complètes pour mettre en lumière les **enjeux techniques et/ou de sécurité**. --- Évaluation des **risques**, identifier les **critères d\'acceptation** et proposition de **solutions** pour assurer une qualité optimale et fiable des produits livrés. --- Intégration et tests d\'** API REST(Node.js) ** grâce à **Postman et Ngrok** en coordination avec l\'équipe Back-End. --- Utilisation de **simulateurs iOS et Android** pour valider les fonctionnalités sur différents environnements, ainsi que réalisation de tests **multi-plateformes (web responsive, mobile)** en conditions réelles et reproduites. --- Création de **données de tests** via **MongoDB** et vérification du comportement attendu des user stories. --- Participation aux tests post-release via **TestFlight**, ainsi qu’à la mise en production (**go-live**) et au support en phase de stabilisation.',
+            'Rédaction et maintien d’une **documentation technique** détaillée, précise et adaptée aux différentes équipes.',
+            'Participation à la **planification des sprints** et à l\'**estimation des tâches** pour une meilleure gestion des **priorités** et respect des **délais**.',
           ]
         },
         features: {
