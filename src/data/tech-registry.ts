@@ -28,7 +28,7 @@ const TECH_REGISTRY = {
 
   'Go': { color: '#00ADD8' },
   'Golang': { color: '#00ADD8' },
-  'Rust': { color: '#DEA584' },
+  'Figma': { color: '#DEA584' },
   'Ruby': { color: '#CC342D' },
   'PHP': { color: '#777BB4' },
   'C': { color: '#A8B9CC' },
@@ -66,7 +66,7 @@ const TECH_REGISTRY = {
 
   // ===== Data =====
   'MongoDB': { color: '#38B000' },
-  'NoSQL': { color: '#5E60CE' },
+  'SQL': { color: '#5E60CE' },
 
   // ===== Dev / scripting context =====
   'JavaScript': { color: '#FFD60A' },
