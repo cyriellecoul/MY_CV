@@ -22,8 +22,8 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Analyste en assurance qualité (QA)',
     },
     titleSpecialized: {
-      en: ' 5 years of experience',
-      fr: ' 5 ans d’expérience',
+      en: '+ 5 years of experience',
+      fr: '+ de 5 ans d’expérience',
     },
     location: 'Montréal, Québec',
   },
@@ -91,7 +91,8 @@ export const resumeConfig: ResumeConfig = {
         { name: 'MongoDB' },
         { name: 'JavaScript' },
         { name: 'Node.js' },
-        { name: 'NoSQL' },
+        { name: 'SQL' },
+        { name: 'Figma' },
         { name: 'Bitbucket' },
         { name: 'Java' },
         { name: 'Angular' },
@@ -128,12 +129,12 @@ export const resumeConfig: ResumeConfig = {
         'Analyse des besoins',
         'Rédaction de documentation',
         'Gestion des risques',
-        'Esprit d’analyse',      
+        'Esprit d’analyse',
         'Rigueur', 'Autonomie',
         'Tests fonctionnels, automatisés et de régression',
         'Résolution de problèmes',
         'Suivi de projets',
-  
+
         'Souci du détail'
       ], isHighlighted: true,
       details: {
@@ -145,19 +146,20 @@ export const resumeConfig: ResumeConfig = {
           en: 'At mPhase, I worked within a team of 10 developers in an Agile/Scrum environment with time-boxed sprints, utilizing a CI/CD pipeline (GitHub Actions, Sentry), and conducting code reviews and branch checkouts for every pull request.',
           fr: 'À mPhase, j\'ai travaillé avec une équipe de 10 développeur·euse·s appliquant la méthodologie Agile/Scrum basée sur des sprints d\'une durée définie, pipeline CI/CD avec GitHub Actions et Sentry, code review et checkout sur chaque PR.',
         },
-          tasks: {
+        tasks: {
           'en': [
-            '**Design of Front-End/Mobile solutions** in Agile collaboration with cross-functional teams to define client requirements.',
-            '**Quality assurance of digital products**: --- Writing and defining **test plans** and tracking issues using ticket management tools **(Jira)**. --- Design and daily execution of **functional, regression, and integration tests** during branch checkouts. --- Execution of **manual and automated tests** on partial or complete features to identify **technical and/or security-related issues**. --- Assessment of **risks**, identification of **acceptance criteria**, and proposal of **solutions** to ensure optimal and reliable product quality. --- Integration and testing of **REST APIs (Node.js)** using **Postman and Ngrok** in coordination with the Back-End team. --- Use of **iOS and Android simulators** to validate features across different environments, as well as execution of **multi-platform testing (responsive web, mobile)** in real and reproduced conditions. --- Creation of **test data** using **MongoDB** and validation of expected user story behavior. --- Participation in post-release testing via **TestFlight**, as well as production deployment (**go-live**) and stabilization support.',
-            'Writing and maintenance of detailed, accurate, and team-oriented **technical documentation**.',
-            'Participation in **sprint planning** and **task estimation** to improve **priority management** and meet project **deadlines**.'
+            '**Design of Front-End/Mobile solutions** in Agile collaboration with multidisciplinary teams to define client needs and acceptance criteria.',
+            '**Digital product quality assurance**: --- Writing and defining **test plans** and tracking issues through ticket management tools **(Jira)** - with a strong ability to quickly learn **XRay** -. --- Designing and executing daily **functional, regression, and integration tests** during branch checkout and validation. --- Performing **manual and automated tests** on partial or complete features to identify **technical and/or security issues**. --- Assessing **risks** and proposing **solutions** to ensure optimal and reliable product quality. --- Integrating and testing **REST APIs (Node.js)** using **Postman** and **Ngrok** in collaboration with the Back-End team. --- Using **iOS and Android simulators** and conducting **cross-platform testing (responsive web and mobile)** to validate features across different environments in both real and simulated conditions. --- Creating **test datasets** through **MongoDB**, executing **SQL queries** for data validation, and verifying expected user story behavior. --- Participating in post-release testing through **TestFlight**, as well as **production deployments** and support during the **stabilization phase**.',
+            'Writing and maintaining detailed, accurate, and team-adapted **technical documentation** through **Confluence**.',
+            'Participating in **sprint planning** and **task estimation** to ensure better **priority management** and compliance with **deadlines**.',
+            'Regularly taking initiative to **present demos** to the team in order to ensure shared understanding and gather constructive feedback.',
           ],
           'fr': [
-            '**Conception de solutions Front-End/Mobile** en collaboration Agile avec des équipes multidisciplinaires pour la définition des besoins clients.',
-            '**Assurance de la qualité des produits numériques** : --- Rédaction et définition de **plans de test** et suivi des anomalies via outils de gestion de tickets **(Jira)**. --- Conception et exécution quotidienne de **tests fonctionnels, de régression et d’intégration** lors du checkout des branches. --- Exécution de **tests manuels et automatisés** sur des fonctionnalités partielles ou complètes pour mettre en lumière les **enjeux techniques et/ou de sécurité**. --- Évaluation des **risques**, identifier les **critères d\'acceptation** et proposition de **solutions** pour assurer une qualité optimale et fiable des produits livrés. --- Intégration et tests d\'** API REST(Node.js) ** grâce à **Postman et Ngrok** en coordination avec l\'équipe Back-End. --- Utilisation de **simulateurs iOS et Android** pour valider les fonctionnalités sur différents environnements, ainsi que réalisation de tests **multi-plateformes (web responsive, mobile)** en conditions réelles et reproduites. --- Création de **données de tests** via **MongoDB** et vérification du comportement attendu des user stories. --- Participation aux tests post-release via **TestFlight**, ainsi qu’à la mise en production (**go-live**) et au support en phase de stabilisation.',
-            'Rédaction et maintien d’une **documentation technique** détaillée, précise et adaptée aux différentes équipes.',
+            '**Conception de solutions Front-End/Mobile** en collaboration Agile avec des équipes multidisciplinaires pour définir les besoins clients et les critères d’acceptation.',
+            '**Assurance de la qualité des produits numériques** : --- Rédaction et définition de **plans de test** et suivi des anomalies via outils de gestion de tickets **(Jira)** - capacité d\'apprentissage rapide de XRay -. --- Conception et exécution quotidienne de **tests fonctionnels, de régression et d’intégration** lors du checkout des branches. --- Exécution de **tests manuels et automatisés** sur des fonctionnalités partielles ou complètes pour mettre en lumière les **enjeux techniques et/ou de sécurité**. --- Évaluation des **risques** et proposition de **solutions** pour assurer une qualité optimale et fiable des produits livrés. --- Intégration et tests d\'**API REST(Node.js) ** grâce à **Postman et Ngrok** en coordination avec l\'équipe Back-End. --- Utilisation de **simulateurs iOS et Android** et tests **multi-plateformes (web responsive, mobile)** pour valider les fonctionnalités sur différents environnements, en conditions réelles et reproduites. --- Utilisation de **Figma** en collaboration avec les équipes UI/UX pour **valider les interfaces** et assurer la cohérence de l’expérience utilisateur. --- Création de **jeux de tests** via **MongoDB**, exécution de **requêtes SQL** pour validation des données et vérification du comportement attendu des user stories. --- Participation aux tests post-release via **TestFlight**, ainsi qu’à la **mise en production** et support en **phase de stabilisation**.',
+            'Rédaction et maintien d’une **documentation technique** détaillée, précise et adaptée aux différentes équipes via **Confluence**.',
             'Participation à la **planification des sprints** et à l\'**estimation des tâches** pour une meilleure gestion des **priorités** et respect des **délais**.',
-            'Prise d’initiative de manière régulière pour faire des **démos** auprès de l\'équipe afin d\'assurer une compréhension commune et recueillir des feedbacks constructifs.',
+            'Prise d’initiative de manière régulière pour **faire des démos** auprès de l\'équipe afin d\'assurer une compréhension commune et recueillir des feedbacks constructifs.',
           ]
         },
         features: {
